@@ -2,6 +2,14 @@
 
 **n8n** (pronounced “n-eight-n”) is an open‑source workflow automation and orchestration platform. It lets you connect APIs, databases, and services with a visual, node‑based editor, while still giving you the power to drop into code when you need it. For agentic AI, that combination—**no‑code orchestration with just‑enough code**—makes n8n an ideal control plane for building systems that can **perceive, plan, and act** across tools.
 
+To start using n8n for free setup on your local machine:
+
+https://www.youtube.com/watch?v=dC2Q_cyzgjg&t=605s
+
+and to learn it in 2 days see this crash course:
+
+https://youtu.be/geR9PeCuHK4?si=SGGNqGNw4Ge_L81n
+
 ### What is “Agentic AI”?
 
 Agentic AI goes beyond single‑prompt LLM usage. Agents:
