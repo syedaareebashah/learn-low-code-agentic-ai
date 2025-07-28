@@ -10,6 +10,18 @@ and to learn it in 2 days see this crash course:
 
 https://youtu.be/geR9PeCuHK4?si=SGGNqGNw4Ge_L81n
 
+AI Agents:
+
+https://www.youtube.com/watch?v=PfdnYe2690E
+
+n8n Tutorial for Beginners 2025: Build AI Agents Step-by-Step
+
+RAG:
+
+https://n8n.io/workflows/5148-local-chatbot-with-retrieval-augmented-generation-rag/
+
+
+
 ### What is “Agentic AI”?
 
 Agentic AI goes beyond single‑prompt LLM usage. Agents:
