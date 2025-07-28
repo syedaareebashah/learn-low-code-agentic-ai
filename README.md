@@ -14,7 +14,9 @@ AI Agents:
 
 https://www.youtube.com/watch?v=PfdnYe2690E
 
-n8n Tutorial for Beginners 2025: Build AI Agents Step-by-Step
+Official Getting Started Docs:
+
+https://docs.n8n.io/courses/level-one/#what-do-i-need-to-get-started
 
 RAG:
 
