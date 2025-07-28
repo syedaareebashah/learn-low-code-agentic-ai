@@ -1,1 +1,1 @@
-# learn-n8n
+# Learn n8n
