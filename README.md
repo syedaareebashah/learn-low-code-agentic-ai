@@ -14,6 +14,10 @@ n8n Just Made Multi Agent AI Way Easier: New AI Agent Tool
 
 https://www.youtube.com/watch?v=lW5xEm7iSXk
 
+Claude Code can build any AI Agent in n8n… just watch
+
+https://www.youtube.com/watch?v=7LlQZKPBKgs
+
 AI Agents:
 
 https://www.youtube.com/watch?v=PfdnYe2690E
