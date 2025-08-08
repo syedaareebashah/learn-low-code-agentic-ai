@@ -4,7 +4,7 @@
 
 To start using n8n for free setup on your local machine:
 
-https://www.youtube.com/watch?v=dC2Q_cyzgjg&t=605s
+https://www.youtube.com/watch?v=dC2Q_cyzgjg
 
 and to learn it in 2 days see this crash course:
 
