@@ -1,5 +1,11 @@
 # n8n AI Agent Building Tutorial
 
+We will cover these tutorials in class:
+
+[Level 2: Understanding the data structure](https://docs.n8n.io/courses/level-two/chapter-1/)
+
+You will watch these videos at home:
+
 [Watch Tutorial](https://youtu.be/geR9PeCuHK4?si=SGGNqGNw4Ge_L81n)
 
 This tutorial is designed to take you from a beginner with no prior knowledge of AI agents to a proficient builder using n8n, a powerful no-code automation platform. Based on a comprehensive YouTube course, this guide provides step-by-step instructions to create automations and AI agents, focusing on practical applications without requiring coding expertise. By the end, you'll have the tools, knowledge, and confidence to build fully autonomous AI agents.
