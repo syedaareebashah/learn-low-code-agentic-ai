@@ -5,6 +5,8 @@ We will cover these tutorials in class:
 
 [Quick Start](https://docs.n8n.io/try-it-out/quickstart/)
 
+[Your first workflow](https://docs.n8n.io/try-it-out/tutorial-first-workflow/)
+
 
 You will watch these videos at home:
 
