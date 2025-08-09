@@ -12,4 +12,4 @@ You will watch these videos at home:
 
 [Beginner Video Course](https://docs.n8n.io/video-courses/#beginner)
 
-https://www.youtube.com/watch?v=4cQWJViybAQ
+[n8n Quick Start Tutorial: Build Your First Workflow [2025]](https://www.youtube.com/watch?v=4cQWJViybAQ)
