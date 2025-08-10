@@ -13,7 +13,7 @@ https://docs.n8n.io/hosting/installation/npm/
 
 ## **Why Start with n8n for Agentic AI Development**
 
-Instead of diving straight into Python code and frameworks, beginning with **n8n**, a **low-code workflow automation platform** with agentic AI capabilities, offers several pedagogical and practical advantages.
+Instead of diving straight into Python Agentic AI code, beginning with **n8n**, a **low-code workflow automation platform** with agentic AI capabilities, offers several pedagogical and practical advantages.
 
 ---
 
