@@ -12,6 +12,10 @@ Install n8n on your laptop using Node.js/NPM
 
 https://docs.n8n.io/hosting/installation/npm/
 
+Extra: Install Supabase on your laptop using Node.js/NPM
+
+https://supabase.com/docs/guides/local-development
+
 
 ---
 
