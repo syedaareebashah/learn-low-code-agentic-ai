@@ -4,6 +4,8 @@
 
 [N8n Raises $2.3 Billion in Four Months, Valuation Exponentially Increases](https://www.ainvest.com/news/n8n-raises-2-3-billion-months-valuation-exponentially-increases-2508/)
 
+## Install n8n on Your Laptop
+
 To start using n8n for free setup on your local machine:
 
 Install n8n on your laptop using Node.js/NPM
