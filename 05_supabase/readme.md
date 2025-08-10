@@ -4,6 +4,8 @@ The development of AI agents is moving rapidly from experimental prototypes to p
 
 A powerful combination to achieve this is **n8n**, an open-source workflow automation and orchestration platform, together with **Supabase**, a fully managed backend-as-a-service built on PostgreSQL with modern extensions like `pgvector` for AI workloads.
 
+[Supabase Storage and N8N How To!](https://www.youtube.com/watch?v=Kx0Mx-zDSbA)
+
 [No Code AI with n8n](https://www.youtube.com/playlist?list=PLyrg3m7Ei-MrYaMyxC_vZ0x-OUdTQN6RS)
 
 ---
