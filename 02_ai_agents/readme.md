@@ -7,7 +7,7 @@ We will cover these tutorials in class:
 Start by grasping the core concepts behind AI agents. This will give you a solid theoretical foundation before you dive into the practical aspects.
 
 * **[AI Agents Explained: From Theory to Practical Deployment](https://blog.n8n.io/ai-agents/)**: This article will introduce you to the theory of AI agents, their components, and how they can be used.
-* **[AI agentic workflows: a practical guide for n8n automation[(https://blog.n8n.io/ai-agentic-workflows/)**
+* **[AI agentic workflows: a practical guide for n8n automation](https://blog.n8n.io/ai-agentic-workflows/)**:
 This bridges the gap between theory and n8n-specific implementation. It also gives you real-world automation use cases.
 
 
