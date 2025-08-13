@@ -20,7 +20,7 @@ Now that you have the theoretical knowledge, it's time to build your first agent
 * **[Build an AI chat agent with n8n](https://docs.n8n.io/advanced-ai/intro-tutorial/)**: This tutorial will walk you through creating a simple but functional AI chat agent.
 * **[AI Agent Node](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/)*:
 Once you’ve built your first agent, dive into the docs for the AI Agent node to understand all its configuration options, so you can tweak and expand beyond the tutorial.
-* **[n8n Just Made Multi Agent AI Way Easier: New AI Agent Tool](https://www.youtube.com/watch?v=lW5xEm7iSXk)**: Watch this video to get a visual understanding of the new AI Agent Tool and how it simplifies the process. It's a great companion to the hands-on tutorial.
+* **[n8n Just Made Multi Agent AI Way Easier: New AI Agent Tool](https://www.youtube.com/watch?v=lW5xEm7iSXk)**: Watch this video to get a visual understanding of the new AI Agent Tool and how it simplifies the process. It's a great companion to the hands-on tutorial. From this video we have created a [Tutorial which is attached](#tutorial-building-multi-agent-ai-workflows-in-n8n-with-the-new-ai-agent-tool)
 
 ***
 
