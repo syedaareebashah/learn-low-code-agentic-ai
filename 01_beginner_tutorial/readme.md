@@ -19,4 +19,4 @@ You will watch these videos at home:
 
 [Beginner Video Course](https://docs.n8n.io/video-courses/#beginner)
 
-https://www.youtube.com/watch?v=RRIgP3Msgqs
+
