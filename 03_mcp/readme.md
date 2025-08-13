@@ -8,7 +8,7 @@ We will cover this tutorial in class:
 
 n8n interacts with MCP as an MCP client via the [MCP Client Tool node](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolmcp/) to use external tools by connecting to MCP servers with authentication. Additionally, n8n acts as an MCP server through the [MCP Server Trigger node](https://docs.n8n.io/integrations/builtin/core-nodes/n8n-nodes-langchain.mcptrigger/) to expose its tools and workflows using SSE and configurable URLs with authentication
 
-Note: Comprehensive Tutorial is available at the end of this page
+Note: [Comprehensive Tutorial is available at the end of this page](#-comprehensive-tutorial-model-context-protocol-mcp-with-n8n)
 
 
 You will watch these videos at home:
