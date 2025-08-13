@@ -68,3 +68,165 @@ You will watch these videos at home:
 [n8n Tutorial For Beginners: How To Set Up AI Agents That Save You Hours](https://www.youtube.com/watch?v=RRIgP3Msgqs)
 
 
+Here’s a detailed tutorial based on the video and transcript you provided. I’ve structured it as a step-by-step guide with explanations, benefits, and practical examples so it’s easy to follow and implement.
+
+---
+
+# **Tutorial: Building Multi-Agent AI Workflows in n8n with the New AI Agent Tool**
+
+The n8n team has released a powerful new feature — the **AI Agent Tool** — allowing you to embed AI agents within other AI agents in the **same workflow**, without relying on separate subworkflows. This opens up possibilities for **multi-agent orchestration** and **cost-efficient model usage**.
+
+---
+
+## **1. Understanding the Old vs. New Approach**
+
+### **Old Way** – Subworkflows
+
+* You’d have your main AI agent workflow (e.g., Analyst Agent).
+* To achieve multi-agent behavior, you would call another n8n workflow as a **subworkflow**.
+* Benefits:
+
+  * Clear separation of concerns.
+  * Good for when the subworkflow isn’t AI-heavy or has its own complex logic.
+* Drawbacks:
+
+  * You need to manage two separate workflows.
+  * Switching between them to make changes is time-consuming.
+
+### **New Way** – AI Agent Tool
+
+* Now you can use another AI agent **as a tool** inside the same workflow.
+* No need for two separate workflow tabs.
+* Great for **tight integration** and **token-cost optimization**.
+
+---
+
+## **2. When to Use Multi-Agent Workflows**
+
+* **Cost Optimization:** Use an expensive model (e.g., Claude Sonnet 4) for reasoning and synthesis, and a cheaper model (e.g., GPT-4.1 nano) for data-heavy tasks like research.
+* **Specialization:** Different agents handle different roles — e.g., one for research, one for analysis, one for creative writing.
+* **Tool-Specific Agents:** Use specialized smaller models for specific tool-calling tasks.
+
+---
+
+## **3. Example: Analyst Agent + Research Agent**
+
+![](new_tool.png)
+
+**Scenario:**
+
+* Analyst Agent = Overseer (expensive, high-quality synthesis).
+* Research Agent = Worker (cheap, token-heavy queries).
+
+**Step-by-Step Setup:**
+
+### **Step 1 — Create the Parent Analyst Agent**
+
+1. Add an **AI Agent** node in n8n.
+2. Set the model to **Claude Sonnet 4** (or your preferred high-quality model).
+3. Configure it to:
+
+   * Receive user queries.
+   * Decide when to delegate to the Research Agent.
+
+---
+
+### **Step 2 — Add the AI Agent Tool**
+
+1. In the Analyst Agent workflow, click **+** to add a new node.
+2. Search for **AI Agent Tool**.
+3. Select it and link it to the Research Agent.
+
+---
+
+### **Step 3 — Build the Research Agent**
+
+1. Inside the Research Agent node:
+
+   * Give it a **description** — e.g., “Use this agent for real-world research.”
+   * Configure its prompt to accept a query and produce summarized results.
+   * Attach the **Perplexity Search Tool** to handle internet searches.
+   * Set the model to **GPT-4.1 nano** (cheap and fast).
+2. Ensure it:
+
+   * Receives a query from the parent agent.
+   * Summarizes findings before sending them back.
+
+---
+
+### **Step 4 — Link the Tools**
+
+* Disconnect Perplexity directly from the Analyst Agent.
+* Attach Perplexity to the Research Agent.
+* Link the Research Agent as a tool for the Analyst Agent.
+
+---
+
+## **4. Why This Works Well**
+
+* **Token Efficiency:**
+  In testing, both single-agent and multi-agent versions consumed \~50,000 tokens. But with multi-agent:
+
+  * Half the tokens were processed by the **37× cheaper model**.
+  * Huge cost savings over time.
+* **Right Model for the Right Job:**
+  Use premium models only where they add the most value.
+* **Better Organization:**
+  Each agent focuses on its role — reduces confusion and hallucination risk.
+
+---
+
+## **5. Going Multi-Level Deep**
+
+* You can nest AI agents **multiple layers deep** — e.g.:
+
+  * Analyst Agent → Research Agent → Data Extraction Agent.
+* n8n reports no degradation in performance so far with multiple layers.
+
+---
+
+## **6. Monitoring & Debugging**
+
+* The **Execution Logs** show:
+
+  * Parent agent activity.
+  * Sub-agent calls.
+  * Tool usage within sub-agents.
+* This helps you trace results and optimize prompts or model choices.
+
+---
+
+## **7. Example Cost Breakdown**
+
+* Analyst Agent (Claude Sonnet 4): 5 calls.
+* Research Agent (GPT-4.1 nano): 9 calls.
+* Result:
+  Heavy token usage handled by a **much cheaper model**.
+
+---
+
+## **8. Tips & Best Practices**
+
+* **Prompt Control:** Add checks and constraints to sub-agents to reduce hallucination.
+* **Specialized Models:** Use small, fast open-source models for specific structured outputs or tool calls.
+* **Modular Thinking:** Keep agent roles narrow and well-defined.
+
+---
+
+## **9. Wrap-Up**
+
+The **AI Agent Tool** in n8n makes it easier than ever to:
+
+* Build **multi-agent AI workflows** in a single workspace.
+* **Save costs** by strategically using models.
+* Create **scalable, role-specific AI architectures** without juggling multiple workflow tabs.
+
+> 🚀 **Your Next Step:** Try creating your own specialized agents and see how deep you can go with multi-layer orchestration.
+
+Happy flowgramming!
+
+---
+
+
+
+
