@@ -4,6 +4,8 @@
 
 [N8n Raises $2.3 Billion in Four Months, Valuation Exponentially Increases](https://www.ainvest.com/news/n8n-raises-2-3-billion-months-valuation-exponentially-increases-2508/)
 
+[n8n vs Python Agentic Frameworks](https://chatgpt.com/share/689ca2f2-1c88-8001-8721-3682c1ca8244)
+
 ## Install n8n on Your Laptop
 
 To start using n8n for free setup on your local machine:
