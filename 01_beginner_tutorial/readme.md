@@ -13,6 +13,10 @@ We will cover these tutorials in class:
 
 [Level 1 Course](https://docs.n8n.io/courses/level-one/)
 
+Students will do this project in class:
+
+[Class Project: Automating a (Real-world) Use Case](https://docs.n8n.io/courses/level-one/chapter-3/)
+
 
 You will watch these videos at home:
 
