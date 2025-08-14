@@ -1,12 +1,23 @@
 # AI Agents
 
-We will cover these tutorials in class:
+### What are AI agents?
+An AI agent is an autonomous system that receives data, makes rational decisions, and acts within its environment to achieve specific goals.
+
+We will cover these resources in class:
 
 ### **Step 1: Understand the Fundamentals**
 
 Start by grasping the core concepts behind AI agents. This will give you a solid theoretical foundation before you dive into the practical aspects.
 
-* **[AI Agents Explained: From Theory to Practical Deployment](https://blog.n8n.io/ai-agents/)**: This article will introduce you to the theory of AI agents, their components, and how they can be used.
+* **[Cluster nodes](https://docs.n8n.io/integrations/builtin/cluster-nodes/)**
+
+* **[AI Agent node](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/)**
+
+* **[Advanced AI](https://docs.n8n.io/advanced-ai/)**
+
+* **[Build an AI chat agent with n8n](https://docs.n8n.io/advanced-ai/intro-tutorial/)**
+
+
 * **[AI agentic workflows: a practical guide for n8n automation](https://blog.n8n.io/ai-agentic-workflows/)**:
 This bridges the gap between theory and n8n-specific implementation. It also gives you real-world automation use cases.
 
