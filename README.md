@@ -1,6 +1,6 @@
 # Agentic AI Development with Low Code n8n, Model Context Protocl (MCP), Supabase
 
-This repo is part of the [Panaversity Certified Agentic & Robotic AI Engineer](http) program. You can also review the certification and course details in the [program guide](https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing). This repo provides learning material for n8n course and certification.
+This repo is part of the [Panaversity Certified Agentic & Robotic AI Engineer](https://panaversity.org/) program. You can also review the certification and course details in the [program guide](https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing). This repo provides learning material for n8n course and certification.
 
 **n8n** (pronounced “n-eight-n”) is an open‑source workflow automation and orchestration platform. It lets you connect APIs, databases, and services with a visual, node‑based editor, while still giving you the power to drop into code when you need it. For agentic AI, that combination—**no‑code orchestration with just‑enough code**—makes n8n an ideal control plane for building systems that can **perceive, plan, and act** across tools.
 
