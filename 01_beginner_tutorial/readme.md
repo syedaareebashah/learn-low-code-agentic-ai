@@ -8,8 +8,11 @@ Install n8n on your laptop using Node.js/NPM
 
 https://docs.n8n.io/hosting/installation/npm/
 
-We will cover these tutorials in class:
+It is best to install with docker:
 
+https://docs.n8n.io/hosting/installation/docker/
+
+We will cover these tutorials in class:
 
 [Level 1 Course](https://docs.n8n.io/courses/level-one/)
 

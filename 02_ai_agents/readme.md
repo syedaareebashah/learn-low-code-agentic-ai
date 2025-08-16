@@ -15,8 +15,6 @@ Start by grasping the core concepts behind AI agents. This will give you a solid
 
 * **[Advanced AI](https://docs.n8n.io/advanced-ai/)**
 
-* **[Build an AI chat agent with n8n](https://docs.n8n.io/advanced-ai/intro-tutorial/)**
-
 
 * **[AI agentic workflows: a practical guide for n8n automation](https://blog.n8n.io/ai-agentic-workflows/)**:
 This bridges the gap between theory and n8n-specific implementation. It also gives you real-world automation use cases.
