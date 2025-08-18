@@ -6,7 +6,7 @@ For learning Full-Code development refer to this [Learn Agentic AI](https://gith
 
 ## What is n8n?
 
-**n8n** (pronounced “n-eight-n”) is an open‑source workflow automation and orchestration platform. It lets you connect APIs, databases, and services with a visual, node‑based editor, while still giving you the power to drop into code when you need it. For agentic AI, that combination—**no‑code orchestration with just‑enough code**—makes n8n an ideal control plane for building systems that can **perceive, plan, and act** across tools.
+**n8n** (pronounced “n-eight-n”) is an open‑source workflow automation and orchestration platform. It lets you connect APIs, databases, and services with a visual, node‑based editor, while still giving you the power to drop into code when you need it. For agentic AI, that combination—**no‑code orchestration with just‑enough code**—makes n8n an ideal control plane for prototyping and building systems that can **perceive, plan, and act** across tools.
 
 [N8n Raises $2.3 Billion in Four Months, Valuation Exponentially Increases](https://www.ainvest.com/news/n8n-raises-2-3-billion-months-valuation-exponentially-increases-2508/)
 
