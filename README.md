@@ -14,6 +14,8 @@ For learning Full-Code development refer to this [Learn Agentic AI](https://gith
 
 ## What are AI Agents?
 
+![](agent.png)
+
 An AI agent is a system that doesn’t just answer a prompt—it **perceives, decides, and acts** toward a goal, often over multiple steps and with tools.
 
 # The idea in one line
