@@ -79,31 +79,6 @@ Practically, we prototype in n8n to validate data models and agent behaviors, lo
 
 In short: we bet on the winners in each category to move faster now and scale safely later—speed where it matters.
 
----
-
-## Why n8n, Supabase, and MCP Are the Ideal Stack for Low Code Agentic AI Development
-
-The emergence of **agentic AI** — AI systems capable of autonomous decision-making and action — requires an infrastructure that is modular, scalable, and capable of secure integration with real-world systems. The combination of **n8n**, **Supabase**, and the **Model Context Protocol (MCP)** provides precisely that foundation for Low Code Development.
-
-### n8n – Orchestrating Intelligent Workflows
-
-n8n serves as the orchestration layer, enabling event-driven workflows and seamless integration across APIs and services. Its visual flow builder allows rapid design of complex automation logic without extensive code, while its flexibility ensures that agent-initiated actions can be executed reliably and in real time.
-
-### Supabase – Persistent, Real-Time Data Management
-
-Supabase offers a robust **PostgreSQL**-based backend with real-time capabilities, authentication, and API access out of the box. For agentic AI systems, Supabase functions as the long-term memory store — enabling agents to retain context, store interaction histories, and manage structured or unstructured data efficiently. Its edge functions further allow server-side logic execution close to the data, enhancing performance and responsiveness.
-
-### MCP – Secure, Modular AI Tooling Access
-
-The Model Context Protocol (MCP) provides a standardized, secure interface for AI models to access external tools, APIs, and databases. This abstraction enables modularity, allowing developers to extend agent capabilities without altering the model’s core logic. MCP ensures that tool integrations are structured, auditable, and maintainable over time.
-
-### A Unified Approach to Low Code Agentic AI
-
-* **n8n** delivers workflow orchestration and action execution.
-* **Supabase** ensures durable and scalable data persistence.
-* **MCP** facilitates secure and extensible tool interoperability.
-
-Together, they form a cohesive ecosystem for building production-ready agentic AI applications. This architecture not only supports autonomous agent decision-making and task execution but also ensures security, maintainability, and operational efficiency.
 
 ---
 
