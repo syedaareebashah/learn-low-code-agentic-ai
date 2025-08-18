@@ -40,8 +40,13 @@ With a basic agent under your belt, you can now explore the more practical aspec
 * **[AI agentic workflows: a practical guide for n8n automation](https://blog.n8n.io/ai-agentic-workflows/)**: This guide provides practical insights into designing and implementing more complex agentic workflows in n8n.
 
 ***
+### **Step 4: AI Agent Architectures**
 
-### **Step 4: Introduction to Multi-Agent Systems**
+[AI Agent Architectures: The Ultimate Guide With n8n Examples](https://www.productcompass.pm/p/ai-agent-architectures)
+
+***
+
+### **Step 5: Introduction to Multi-Agent Systems**
 
 Once you're comfortable with single agents, you can move on to the more advanced topic of multi-agent systems, where multiple agents collaborate to achieve a goal.
 
@@ -49,7 +54,7 @@ Once you're comfortable with single agents, you can move on to the more advanced
 
 ***
 
-### **Step 5: Advanced and Community-Driven Examples**
+### **Step 6: Advanced and Community-Driven Examples**
 
 To further enhance your skills, explore real-world examples and advanced techniques shared by the n8n community.
 
