@@ -29,7 +29,7 @@ Here’s a crisp way to tell them apart and know when to use which.
 
 | Dimension               | No-code                            | Low-code                              | Full-code                                           |
 | ----------------------- | ---------------------------------- | ------------------------------------- | --------------------------------------------------- |
-| **Primary users**       | Business users, analysts           | Devs + power users                    | Software engineers                                  |
+| **Primary users**       | Business users, analysts           | Devs + prototypers + power users                    | Software engineers                                  |
 | **Speed to MVP**        | Fastest                            | Fast                                  | Slowest                                             |
 | **UI/Logic**            | Drag-and-drop + prebuilt actions   | Visual flows + custom code blocks     | Hand-coded UI, APIs, logic                          |
 | **Data**                | Built-in tables/connectors         | Connectors + custom integrations      | Any database or data layer you choose               |
