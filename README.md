@@ -20,6 +20,71 @@ Extra: Install Supabase on your laptop using Node.js/NPM
 
 https://supabase.com/docs/guides/local-development
 
+---
+
+## No-Code, Low-code, and Full-code
+
+Here’s a crisp way to tell them apart and know when to use which.
+
+### What they are
+
+* **No-code:** Visual app builders for non-developers—think drag-and-drop UI, built-in data, and “recipes” for logic.
+* **Low-code:** Visual + code “escape hatches”—faster than full code, but you can script/extend when needed.
+* **Full-code:** Everything is coded by engineers—maximum control, minimum guardrails, longest runway.
+
+### Side-by-side
+
+| Dimension               | No-code                            | Low-code                              | Full-code                                           |
+| ----------------------- | ---------------------------------- | ------------------------------------- | --------------------------------------------------- |
+| **Primary users**       | Business users, analysts           | Devs + power users                    | Software engineers                                  |
+| **Speed to MVP**        | Fastest                            | Fast                                  | Slowest                                             |
+| **UI/Logic**            | Drag-and-drop + prebuilt actions   | Visual flows + custom code blocks     | Hand-coded UI, APIs, logic                          |
+| **Data**                | Built-in tables/connectors         | Connectors + custom integrations      | Any database or data layer you choose               |
+| **Extensibility**       | Limited to vendor features         | Plugins, scripts, custom components   | Unlimited (your stack, your rules)                  |
+| **DevOps/CI/CD**        | Vendor-managed                     | Partial (some pipelines)              | You own CI/CD, testing, infra                       |
+| **Compliance/Gov**      | Varies by vendor                   | Stronger enterprise options           | You design for your needs                           |
+| **Scale & performance** | Good for small/medium apps         | Medium→large with tuning              | Any scale (with engineering effort)                 |
+| **Vendor lock-in**      | Highest                            | Medium                                | Lowest                                              |
+| **Cost profile**        | Per-user/app fees                  | Platform + dev time                   | Infra + engineering time                            |
+| **Typical examples**    | Airtable/Glide/Webflow/Notion apps | Power Apps/OutSystems/Retool/Budibase | React/Next.js + FastAPI/Django + Postgres/Kafka/K8s |
+
+### When to pick which
+
+* **Choose no-code** when non-devs need quick CRUD apps, forms, simple workflows, prototypes, or microsites, and tight deadlines matter more than perfect fit.
+* **Choose low-code** when you want speed **and** the option to drop in real code—internal tools, admin consoles, workflow automation, line-of-business apps with a few custom bits.
+* **Choose full-code** when you need bespoke UX, complex logic, high performance, strict security/compliance, deep integrations, or plan to scale into a product with a long lifecycle.
+
+
+
+### Migration paths (practical strategy)
+
+1. **Prototype in no-code/low-code**, validate workflows/data model.
+2. **Rebuild critical paths in full-code** as scale/complexity demands (keep the no/low-code app for back-office ops).
+
+### Where does n8n stand in the spectrum
+
+Short answer: **n8n is firmly “low-code”**—a developer-friendly automation/workflow platform that sits between no-code tools (Zapier and Make) and full-code (Python and OpenAI Agents SDK).
+
+## Why low-code?
+
+* **Visual flows** for 80–90% of logic.
+* **Code escape hatches** (Function/Code nodes, expressions) when you need JS/Python, custom auth, or odd transforms.
+* **Self-hostable & open source**, so lower vendor lock-in than typical no-code.
+
+In the category as open-source, low-code platforms with agent features, n8n is clearly in the top tier and growing extremely fast.
+
+- n8n’s GitHub stars jumped from 75k on Apr 8, 2025 to 100k by May 28, 2025—a big surge in ~7 weeks. 
+- n8n has leaned hard into AI agents (native “AI Agent” node, multi-agent orchestration, docs and templates), so growth is tied to agentic use cases—not just classic automation.
+
+---
+
+## Our Agentic AI Stack: n8n and OpenAI Agents SDK
+
+We’re standardizing on **n8n** for the low-code layer and the **OpenAI Agents SDK** for the full-code layer because both are showing exceptional, category-specific growth, are **open source**, **self-hostable**, and run cleanly in **containers** on **Kubernetes** across any cloud—giving developers a fast visual surface for prototyping and a rigorously testable codebase for production. Critically, both align on the **Model Context Protocol (MCP)**: n8n provides a built-in **MCP Client Tool** node to consume tools from external MCP servers and publishes guidance/templates for exposing n8n workflows as an **MCP server**, enabling the same tool surface in visual automations. On the full-code side, the OpenAI Agents SDK offers first-class MCP support. This shared MCP foundation lets us move prototypes to production with minimal rework: the **same MCP servers** (filesystems, web research, internal APIs, etc.) can be exercised from n8n during rapid iteration and then wired directly into Agents SDK–based services as they harden—keeping interfaces stable while we scale.
+
+Practically, we prototype in n8n to validate data models and agent behaviors, lock down webhook/API contracts, and capture human-in-the-loop steps; then we codify in the Agents SDK for performance, reliability, and compliance, while continuing to use n8n for ops automations and glue. The result is speed where it matters and rigor where it counts—the path from whiteboard to production without reinventing the pen every week.
+
+In short: we bet on the winners in each category to move faster now and scale safely later—speed where it matters.
 
 ---
 
@@ -46,125 +111,6 @@ The Model Context Protocol (MCP) provides a standardized, secure interface for A
 * **MCP** facilitates secure and extensible tool interoperability.
 
 Together, they form a cohesive ecosystem for building production-ready agentic AI applications. This architecture not only supports autonomous agent decision-making and task execution but also ensures security, maintainability, and operational efficiency.
-
----
-
-## **Why Start with n8n for Agentic AI Development**
-
-Instead of diving straight into Python Agentic AI code, beginning with **n8n**, a **low-code workflow automation platform** with agentic AI capabilities, offers several pedagogical and practical advantages.
-
----
-
-### **1. Reduces Initial Cognitive Load**
-
-* **Problem with starting in Agentic AI with Python**: Beginners need to learn **syntax**, **libraries**, and **environment setup** before they can even run their first agent.
-* **n8n advantage**: Students can visually create workflows, connect APIs, and see results **immediately** without worrying about programming boilerplate.
-* This **lowers the barrier to entry**, making them confident early on.
-
----
-
-### **2. Immediate Hands-On Experience with Agentic AI**
-
-* n8n supports **OpenAI, and other AI integrations** right out of the box.
-* Students can quickly build:
-
-  * Chatbots
-  * RAG workflows
-  * Multi-step AI agents with conditional logic
-  * API-triggered AI tasks
-* This lets them **experience what an AI agent does** before they learn to code one from scratch.
-
----
-
-### **3. Focus on Concepts Before Code**
-
-Agentic AI has several **foundational concepts**:
-
-* **Reasoning & Acting** (ReAct)
-* **Tool usage**
-* **Memory**
-* **Multi-agent orchestration**
-* **Event triggers & API calls**
-
-With n8n:
-
-* You can **show these concepts visually**: nodes for tools, edges for reasoning paths, loops for iteration.
-* Students **internalize agentic workflows** without the distraction of code syntax.
-* When they move to building AI Agents using Python, these concepts will already be clear.
-
----
-
-### **4. Rapid Prototyping Skills**
-
-* In real-world AI projects, **time-to-first-working-prototype** is crucial.
-* n8n allows:
-
-  * Fast prototyping
-  * Easy iteration
-  * Plug-and-play with various APIs and webhooks
-* Students will **see results on Day 1**, which boosts engagement and retention.
-
----
-
-### **5. Bridges the Gap Between Non-Coders and Coders**
-
-* Many AI team members are **product managers, analysts, or domain experts** who don’t code.
-* Teaching n8n first helps **non-technical learners** build real AI automations without waiting for engineering help.
-* Coders in the class will still benefit by seeing **how low-code platforms abstract agentic AI design** — a skill increasingly valuable in enterprise settings.
-
----
-
-### **6. Smooth Transition to Python**
-
-Once students understand:
-
-* Triggers
-* Actions
-* Conditional logic
-* API usage
-* Data transformation
-* Tool calling and chaining
-  …you can **map n8n nodes to Python functions and classes**.
-
-For example:
-
-| **n8n Concept**   | **Python Equivalent**                     |
-| ----------------- | ----------------------------------------- |
-| Node              | Function or class method                  |
-| Workflow          | Script or main orchestration function     |
-| Trigger           | API route, CLI command, or event listener |
-| Data passing      | Function arguments and return values      |
-| External API node | Requests / aiohttp calls                  |
-
-This makes **Python agent frameworks** like OpenAI Agents much easier to grasp.
-
----
-
-### **7. Exposure to Modern AI Integration Practices**
-
-* n8n workflows are **cloud-ready** and **API-friendly**, just like enterprise AI systems.
-* Students will learn:
-
-  * How to connect to cloud LLM APIs
-  * How to call internal tools
-  * How to build a workflow with **fail-safes and retries**
-* These are **industry-grade skills** even before they write a single Python line.
-
----
-
-### **8. Motivation and Engagement Boost**
-
-* Nothing motivates a beginner like **building something cool in the first hour**.
-* In n8n, a student can:
-
-  1. Drag in an OpenAI node
-  2. Connect it to a web form
-  3. Deploy a working AI-powered automation
-* They’ll feel like they’re already "AI developers" before tackling deeper Python lessons.
-
----
-
-✅ **Bottom line**: Starting with n8n makes our course **faster, more accessible, and more fun** for beginners while still laying a solid conceptual foundation for advanced Python agentic AI development. It turns “I’m confused” into “I can build this!” from day one.
 
 ---
 
