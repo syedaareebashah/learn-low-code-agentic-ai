@@ -39,7 +39,7 @@ Here’s a crisp way to tell them apart and know when to use which.
 | **Scale & performance** | Good for small/medium apps         | Medium→large with tuning              | Any scale (with engineering effort)                 |
 | **Vendor lock-in**      | Highest                            | Medium                                | Lowest                                              |
 | **Cost profile**        | Per-user/app fees                  | Platform + dev time                   | Infra + engineering time                            |
-| **Typical examples**    | Airtable/Glide/Webflow/Notion apps | Power Apps/OutSystems/Retool/Budibase | React/Next.js + FastAPI/Django + Postgres/Kafka/K8s |
+| **Typical examples**    | Zapier + Airtable | n8n | React/Next.js + FastAPI +  Open AI Agents SDK |
 
 ### When to pick which
 
