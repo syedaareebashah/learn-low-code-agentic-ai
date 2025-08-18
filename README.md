@@ -4,25 +4,14 @@ This repo is part of the [Panaversity Certified Agentic & Robotic AI Engineer](h
 
 For learning Full-Code development refer to this [Learn Agentic AI](https://github.com/panaversity/learn-agentic-ai) repository.
 
+## What is n8n?
+
 **n8n** (pronounced “n-eight-n”) is an open‑source workflow automation and orchestration platform. It lets you connect APIs, databases, and services with a visual, node‑based editor, while still giving you the power to drop into code when you need it. For agentic AI, that combination—**no‑code orchestration with just‑enough code**—makes n8n an ideal control plane for building systems that can **perceive, plan, and act** across tools.
 
 [N8n Raises $2.3 Billion in Four Months, Valuation Exponentially Increases](https://www.ainvest.com/news/n8n-raises-2-3-billion-months-valuation-exponentially-increases-2508/)
 
 [n8n vs Python Agentic Frameworks](https://chatgpt.com/share/689ca2f2-1c88-8001-8721-3682c1ca8244)
 
-## Install n8n on Your Laptop
-
-To start using n8n for free setup on your local machine:
-
-Install n8n on your laptop using Node.js/NPM
-
-https://docs.n8n.io/hosting/installation/npm/
-
-Extra: Install Supabase on your laptop using Node.js/NPM
-
-https://supabase.com/docs/guides/local-development
-
----
 
 ## No-Code, Low-code, and Full-code
 
