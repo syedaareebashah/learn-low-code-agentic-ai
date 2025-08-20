@@ -1,12 +1,13 @@
 # Gmail AI Agent
 
-
 [I Built an AI Agent to Manage my Gmail (free n8n template, no code)](https://www.youtube.com/watch?v=iISKXAv_97k)
+
+References:
 
 [I Upgraded My Gmail AI Agent (n8n beginner guide, free template)](https://www.youtube.com/watch?v=iISKXAv_97k)
 
+[Email Manager - Intelligent Gmail Classification](https://n8n.io/workflows/4722-gmail-ai-email-manager/)
 
-References:
 
 [Gmail Integration](https://n8n.io/integrations/gmail/)
 
