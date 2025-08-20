@@ -1,4 +1,4 @@
-# Agentic AI Development with Low-Code n8n, Full-Code OpenAI Agents SDK and Model Context Protocol (MCP)
+# Agentic AI Development with Low-Code n8n and Model Context Protocol (MCP)
 
 This repo is part of the [Panaversity Certified Agentic & Robotic AI Engineer](https://panaversity.org/) program. You can also review the certification and course details in the [program guide](https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing). This repo provides learning material for n8n course and certification.
 
@@ -108,7 +108,7 @@ Here’s a crisp way to tell them apart and know when to use which.
 | **Scale & performance** | Good for small/medium apps         | Medium→large with tuning              | Any scale (with engineering effort)                 |
 | **Vendor lock-in**      | Highest                            | Medium                                | Lowest                                              |
 | **Cost profile**        | Per-user/app fees                  | Platform + dev time                   | Infra + engineering time                            |
-| **Typical examples**    | Zapier + Airtable | n8n | React/Next.js + FastAPI +  Open AI Agents SDK |
+| **Typical examples**    | Zapier + Airtable + Google Opal | n8n | React/Next.js + FastAPI +  Open AI Agents SDK |
 
 ### When to pick which
 
