@@ -20,6 +20,8 @@ For learning Full-Code development refer to this [Learn Agentic AI](https://gith
 
 An AI agent is a system that doesn’t just answer a prompt—it **perceives, decides, and acts** toward a goal, often over multiple steps and with tools.
 
+[Gartner’s Top 10 Tech Trends Of 2025: Agentic AI and Beyond](https://www.productiveedge.com/blog/gartners-top-10-tech-trends-of-2025-agentic-ai-and-beyond)
+
 # The idea in one line
 
 **LLM (the brain) + tools/APIs (hands) + memory (long-term context) + goals (what to achieve) + a loop (to try, check, and try again).**
