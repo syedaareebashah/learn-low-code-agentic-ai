@@ -2,6 +2,10 @@
 
 [I Built an AI Agent to Manage my Gmail (free n8n template, no code)](https://www.youtube.com/watch?v=iISKXAv_97k)
 
+Also with MCP:
+
+[Gmail Automation with MCP | AI Automation using MCP & n8n](https://www.youtube.com/watch?v=zAWBVi-y_Gk) 
+
 References:
 
 [I Upgraded My Gmail AI Agent (n8n beginner guide, free template)](https://www.youtube.com/watch?v=iISKXAv_97k)
