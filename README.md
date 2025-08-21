@@ -1,5 +1,7 @@
 # Agentic AI Development with Low-Code n8n and Model Context Protocol (MCP)
 
+[Class YouTube Videos](https://www.youtube.com/playlist?list=PL0vKVrkG4hWq5T6yqCtUL7ol9rDuEyzBH)
+
 This repo is part of the [Panaversity Certified Agentic & Robotic AI Engineer](https://panaversity.org/) program. You can also review the certification and course details in the [program guide](https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing). This repo provides learning material for n8n course and certification.
 
 For learning Full-Code development refer to this [Learn Agentic AI](https://github.com/panaversity/learn-agentic-ai) repository.
