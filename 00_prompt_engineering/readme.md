@@ -12,7 +12,7 @@
 8. [Hands-On Examples](#hands-on-examples)
 9. [Testing and Iteration](#testing-and-iteration)
 10. [Resources and Next Steps](#resources-and-next-steps)
-11. [Mixture-of-Experts (MoE) and Prompt Engineering]()
+11. [Mixture-of-Experts (MoE) and Prompt Engineering](#mixture-of-experts-moe-and-prompt-engineering)
 
 ## What is Prompt Engineering?
 
