@@ -3,26 +3,66 @@
 ### What are AI agents?
 An AI agent is an autonomous system that receives data, makes rational decisions, and acts within its environment to achieve specific goals.
 
-[Build Your First AI Agent](https://n8n.io/workflows/6270-build-your-first-ai-agent/)
+### **Step 1: Build Your First Agents**
 
-We will cover these resources in class:
+* **[Build Your First AI Agent](https://n8n.io/workflows/6270-build-your-first-ai-agent/)**
+* **[Build an AI chat agent with n8n](https://docs.n8n.io/advanced-ai/intro-tutorial/)**
+* **[Watch: EASIEST WAY to build your first AI AGENT in 20 Minutes (build with me)](https://www.youtube.com/watch?v=EW93sbQUafE)**
 
-### **Step 1: Understand the Fundamentals**
+***
+
+### **Step 2: Understand the Fundamentals**
 
 Start by grasping the core concepts behind AI agents. This will give you a solid theoretical foundation before you dive into the practical aspects.
 
 * **[Cluster nodes](https://docs.n8n.io/integrations/builtin/cluster-nodes/)**
 
 * **[AI Agent node](https://docs.n8n.io/integrations/builtin/cluster-nodes/root-nodes/n8n-nodes-langchain.agent/)**
-
-* **[Advanced AI](https://docs.n8n.io/advanced-ai/)**
-
-
-* **[AI agentic workflows: a practical guide for n8n automation](https://blog.n8n.io/ai-agentic-workflows/)**:
-This bridges the gap between theory and n8n-specific implementation. It also gives you real-world automation use cases.
-
+Once you’ve built your first agent, dive into the docs for the AI Agent node to understand all its configuration options, so you can tweak and expand beyond the tutorial.
 
 ***
+
+### **Step 3: LangChain in n8n**
+
+[RAG in n8n](https://docs.n8n.io/advanced-ai/rag-in-n8n/)
+
+[LangChain in n8n](https://docs.n8n.io/advanced-ai/langchain/overview/)
+
+[LangChain concepts in n8n](https://docs.n8n.io/advanced-ai/langchain/langchain-n8n/)
+
+[LangChain learning resources](https://docs.n8n.io/advanced-ai/langchain/langchain-learning-resources/)
+
+***
+
+### **Step 4: LangSmith in n8n**
+
+[Use LangSmith with n8n](https://docs.n8n.io/advanced-ai/langchain/langsmith/)
+
+***
+
+### **Step 5: Multi-Agent Systems in n8n**
+
+Once you're comfortable with single agents, you can move on to the more advanced topic of multi-agent systems, where multiple agents collaborate to achieve a goal.
+
+AI Agents Tools: Create sophisticated multi-agent systems by using other AI agents as tools within a main "manager" agent.
+
+* **[AI Agent Tool node](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolaiagent/)**
+* **[Building your first multi-agent system with n8n](https://medium.com/mitb-for-all/building-your-first-multi-agent-system-with-n8n-0c959d7139a1)**: This article will guide you through the process of creating your first multi-agent system.
+* **[Build a Multi-Agent Newsletter System in n8n (step-by-step)](https://www.youtube.com/watch?v=pxzo2lXhWJE)**
+
+Note: Example - ai_agent_tool_example.md
+
+***
+
+### **Step 6: n8n AI Builder **
+
+* **[How to Build AI Agents INSTANTLY with n8n’s NEW NATIVE AI Builder](https://www.youtube.com/watch?v=erSlRlwpr-g)**
+
+***
+
+### **[Step 7: Control Any n8n Workflow With a Custom UI — Step by Step Guide](https://www.youtube.com/watch?v=9Po584wKXAM)**
+
+[Part 2: n8n Full Course: How to Build Custom User Interfaces (Step-by-Step)](https://www.youtube.com/watch?v=3hvNCeWDdKQ)
 
 ### **Step 2: Your Hands-On Project**
 
@@ -48,13 +88,7 @@ With a basic agent under your belt, you can now explore the more practical aspec
 
 ***
 
-### **Step 5: Introduction to Multi-Agent Systems**
 
-Once you're comfortable with single agents, you can move on to the more advanced topic of multi-agent systems, where multiple agents collaborate to achieve a goal.
-
-* **[Building your first multi-agent system with n8n](https://medium.com/mitb-for-all/building-your-first-multi-agent-system-with-n8n-0c959d7139a1)**: This article will guide you through the process of creating your first multi-agent system.
-
-***
 
 ### **Step 6: Advanced and Community-Driven Examples**
 
