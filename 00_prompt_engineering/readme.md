@@ -1,5 +1,12 @@
 # Prompt Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
 
+![](./stats.jpg)
+
+**Key Takeaways**
+- With 46.59B visits, ChatGPT accounts for more than 83% of total traffic among the top 10 chatbots.
+- The second most-used chatbot, DeepSeek at 2.74B visits, has barely 6% of ChatGPT’s traffic.
+- While traffic is concentrated, the list includes a mix of U.S., Chinese, and European players.
+
 ## Table of Contents
 
 1. [What is Prompt Engineering?](#what-is-prompt-engineering)
