@@ -30,7 +30,8 @@ AI Agents Tools: Create sophisticated multi-agent systems by using other AI agen
 
 * **[AI Agent Tool node](https://docs.n8n.io/integrations/builtin/cluster-nodes/sub-nodes/n8n-nodes-langchain.toolaiagent/)**
 * **[Building your first multi-agent system with n8n](https://medium.com/mitb-for-all/building-your-first-multi-agent-system-with-n8n-0c959d7139a1)**: This article will guide you through the process of creating your first multi-agent system.
-* **[Build a Multi-Agent Newsletter System in n8n (step-by-step)](https://www.youtube.com/watch?v=pxzo2lXhWJE)**
+* **[Classwork Example](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/04_ai_agents/ai_agent_tool_example.md)**
+* **[Build a Multi-Agent Newsletter System in n8n (step-by-step)](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/04_ai_agents/n8n_multi_agent_tutorial.md)**
 
 Note: Example - ai_agent_tool_example.md
 
