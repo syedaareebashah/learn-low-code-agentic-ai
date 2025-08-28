@@ -1,6 +1,6 @@
 # Prompt Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
 
-![](./stats.jpg)
+<img src="stats.jpg" alt="llm_share" width="300"/>
 
 **Key Takeaways**
 - With 46.59B visits, ChatGPT accounts for more than 83% of total traffic among the top 10 chatbots.
@@ -326,7 +326,6 @@ Thought: Now I need to search for each member individually...
 ```
 
 **Example 2:**
-
 ```
 Question: What is the current population of Tokyo, and how does it compare to New York City?
 
@@ -366,7 +365,6 @@ Explore multiple reasoning branches simultaneously for complex problems.
 
 **Example:**
 
-```
 Question: What is the best marketing strategy for launching a new eco-friendly clothing brand targeting young adults?
 
 Task: Explore multiple strategic approaches, evaluate them, and select the best one.
@@ -396,7 +394,6 @@ Evaluation: Effective for niche targeting but requires careful partner selection
 
 Final Strategy: Launch with a TikTok influencer campaign showcasing eco-friendly clothing, paired with pop-up shops at green festivals to engage young adults directly. Collaborate with a sustainable accessory brand to co-promote at events.
 
-```
 
 **Explanation of Concept:**
 Tree of Thoughts (ToT) involves generating multiple reasoning branches to explore different solutions to a problem, evaluating each, and synthesizing the best ideas into a final answer. Each branch represents a distinct approach, which is explored, assessed for pros and cons, and scored. This method is ideal for complex, open-ended tasks like strategic planning, as it encourages creative exploration and systematic comparison, as shown in the marketing strategy example above.
