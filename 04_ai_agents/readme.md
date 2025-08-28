@@ -22,25 +22,7 @@ Once you’ve built your first agent, dive into the docs for the AI Agent node t
 
 ***
 
-### **Step 3: LangChain in n8n**
-
-[RAG in n8n](https://docs.n8n.io/advanced-ai/rag-in-n8n/)
-
-[LangChain in n8n](https://docs.n8n.io/advanced-ai/langchain/overview/)
-
-[LangChain concepts in n8n](https://docs.n8n.io/advanced-ai/langchain/langchain-n8n/)
-
-[LangChain learning resources](https://docs.n8n.io/advanced-ai/langchain/langchain-learning-resources/)
-
-***
-
-### **Step 4: LangSmith in n8n**
-
-[Use LangSmith with n8n](https://docs.n8n.io/advanced-ai/langchain/langsmith/)
-
-***
-
-### **Step 5: Multi-Agent Systems in n8n**
+### **Step 3: Multi-Agent Systems in n8n**
 
 Once you're comfortable with single agents, you can move on to the more advanced topic of multi-agent systems, where multiple agents collaborate to achieve a goal.
 
@@ -54,6 +36,26 @@ Note: Example - ai_agent_tool_example.md
 
 ***
 
+### **Step 4: LangChain in n8n**
+
+[RAG in n8n](https://docs.n8n.io/advanced-ai/rag-in-n8n/)
+
+[LangChain in n8n](https://docs.n8n.io/advanced-ai/langchain/overview/)
+
+[LangChain concepts in n8n](https://docs.n8n.io/advanced-ai/langchain/langchain-n8n/)
+
+[LangChain learning resources](https://docs.n8n.io/advanced-ai/langchain/langchain-learning-resources/)
+
+***
+
+### **Step 5: LangSmith in n8n**
+
+[Use LangSmith with n8n](https://docs.n8n.io/advanced-ai/langchain/langsmith/)
+
+***
+
+
+
 ### **Step 6: n8n AI Builder **
 
 * **[How to Build AI Agents INSTANTLY with n8n’s NEW NATIVE AI Builder](https://www.youtube.com/watch?v=erSlRlwpr-g)**
@@ -64,7 +66,7 @@ Note: Example - ai_agent_tool_example.md
 
 [Part 2: n8n Full Course: How to Build Custom User Interfaces (Step-by-Step)](https://www.youtube.com/watch?v=3hvNCeWDdKQ)
 
-### **Step 2: Your Hands-On Project**
+### **Step 8: Your Hands-On Project**
 
 Now that you have the theoretical knowledge, it's time to build your agent. These resources will give you both a step-by-step guide and a visual demonstration.
 
