@@ -7,7 +7,7 @@ An AI agent is an autonomous system that receives data, makes rational decisions
 
 * **[Build Your First AI Agent](https://n8n.io/workflows/6270-build-your-first-ai-agent/)**
 * **[Build an AI chat agent with n8n](https://docs.n8n.io/advanced-ai/intro-tutorial/)**
-* **[Must Watch and Build Project: EASIEST WAY to build your first AI AGENT in 20 Minutes (build with me)](https://www.youtube.com/watch?v=EW93sbQUafE)**
+* **[Must Watch Video and Build Project: EASIEST WAY to build your first AI AGENT in 20 Minutes (build with me)]([https://www.youtube.com/watch?v=EW93sbQUafE](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/04_ai_agents/n8n_beginner_tutorial.md))**
 
 ***
 
