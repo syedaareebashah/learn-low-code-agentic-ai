@@ -701,6 +701,8 @@ Step 3: Write the full content based on outline
 
 Mixture-of-Experts (MoE) is a machine learning architecture designed to improve the efficiency and scalability of large models, particularly in the context of Large Language Models (LLMs). It draws from the concept of dividing complex tasks among specialized "experts" in a system, allowing the model to activate only a subset of its parameters for a given input rather than using the entire model every time. This sparse activation leads to computational savings while maintaining or even enhancing performance.
 
+![](./moe.webp)
+
 
 #### MoE Implementation Status in Frontier Models
 Below is an table summarizing the Mixture-of-Experts (MoE) implementation status based on available information up to August 2025. 
