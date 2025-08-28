@@ -1,8 +1,10 @@
-# n8n Tutorial for Beginners: Building Your First AI Agent
+# n8n Tutorial for Beginners: EASIEST WAY to build your first AI AGENT in 20 Minutes
 
 [The Tutorial is based on this Video: EASIEST WAY to build your first AI AGENT in 20 Minutes (build with me)](https://www.youtube.com/watch?v=EW93sbQUafE)
 
 Here’s a beginner-friendly n8n tutorial that recreates (and expands on) the scheduling agent from the video—filling in all the “but how do I actually wire that?” gaps. Yes, we’ll keep it simple; and no, you don’t need a PhD in flowcharts—just vibes and a few clicks.&#x20;
+
+[Contacts CSV Template](./Contacts_CSV_template.csv)
 
 # What you’ll build (in \~30–45 min)
 
