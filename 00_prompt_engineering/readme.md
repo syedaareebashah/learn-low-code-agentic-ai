@@ -81,7 +81,7 @@ Prompt engineering is the art and science of crafting instructions that guide AI
 
 ## Context Engineering Complete Guide
 
-[Complete Guide to Context Engineering for AI Agents]()
+[Complete Guide to Context Engineering for AI Agents](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/00_prompt_engineering/context_engineering_tutorial.md)
 
 
 ## Understanding Large Language Models
