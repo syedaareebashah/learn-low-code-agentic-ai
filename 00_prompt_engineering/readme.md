@@ -1,4 +1,4 @@
-# Prompt Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
+# Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
 
 <img src="stats.jpg" alt="llm_share" width="300"/>
 
