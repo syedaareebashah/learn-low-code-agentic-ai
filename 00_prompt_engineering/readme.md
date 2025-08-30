@@ -7,6 +7,17 @@
 - The second most-used chatbot, DeepSeek at 2.74B visits, has barely 6% of ChatGPT’s traffic.
 - While traffic is concentrated, the list includes a mix of U.S., Chinese, and European players.
 
+## Use these Prompt Engineering Tools to Learn
+
+https://platform.openai.com/chat/
+
+https://aistudio.google.com/
+
+https://console.anthropic.com/
+
+
+
+
 ## Table of Contents
 
 1. [What is Prompt Engineering?](#what-is-prompt-engineering)
