@@ -31,6 +31,10 @@ Prompt engineering is the art and science of crafting instructions that guide AI
 - It's an iterative skill that improves with practice
 - It's becoming essential for productivity in many fields
 
+## What is Context Engineering
+
+[Context Engineering Clearly Explained](https://www.youtube.com/watch?v=jLuwLJBQkIs)
+
 ## Prompt engineering vs. context engineering
 
 **Prompt engineering** = crafting the *instruction* you give the model.
