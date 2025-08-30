@@ -31,10 +31,6 @@ Prompt engineering is the art and science of crafting instructions that guide AI
 - It's an iterative skill that improves with practice
 - It's becoming essential for productivity in many fields
 
-## What is Context Engineering
-
-[Context Engineering Clearly Explained](https://www.youtube.com/watch?v=jLuwLJBQkIs)
-
 ## Prompt engineering vs. context engineering
 
 **Prompt engineering** = crafting the *instruction* you give the model.
@@ -82,6 +78,10 @@ Prompt engineering is the art and science of crafting instructions that guide AI
 * Evaluate both layers separately: prompt A/B tests and retrieval quality (precision/recall, groundedness).
 
 **One-liner:** Prompt engineering is *how you ask*; context engineering is *what you show*. Combine them for reliable, scalable LLM apps.
+
+## Context Engineering Complete Guide
+
+[Complete Guide to Context Engineering for AI Agents]()
 
 
 ## Understanding Large Language Models
