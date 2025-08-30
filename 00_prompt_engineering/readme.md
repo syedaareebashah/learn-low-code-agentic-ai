@@ -7,6 +7,12 @@
 - The second most-used chatbot, DeepSeek at 2.74B visits, has barely 6% of ChatGPT’s traffic.
 - While traffic is concentrated, the list includes a mix of U.S., Chinese, and European players.
 
+## Which is the best LLM?
+
+See how leading models stack up across text, image, vision, and beyond. This page gives you a snapshot of each Arena:
+
+https://lmarena.ai/leaderboard
+
 ## Use these Prompt Engineering Tools to Learn
 
 https://platform.openai.com/chat/
