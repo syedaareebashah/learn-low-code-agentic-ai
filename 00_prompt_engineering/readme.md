@@ -8,7 +8,9 @@
 - While traffic is concentrated, the list includes a mix of U.S., Chinese, and European players.
 
 ## Understand the Power: Nano Banana and Veo 3
+
 To understand the power of LLMs and prompt engineering go through these tutorials: 
+
 * **[Nano Banana Tutorial: How to Use Google’s AI Image Editing Model in 2025](https://www.anangsha.me/nano-banana-tutorial-how-to-use-googles-ai-image-editing-model-in-2025/)**
 * **[Google's Veo 3: A Guide With Practical Examples](https://www.datacamp.com/tutorial/veo-3)**
 * **[How to create effective prompts with Veo 3](https://deepmind.google/models/veo/prompt-guide/)**
