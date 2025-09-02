@@ -1,6 +1,6 @@
-# AI Agent Tool Example
+# Multi-Agent Tool Project
 
-Here’s a tiny, single-canvas example you can build in n8n to get a **Primary Agent** that delegates to two **AI Agent Tool** sub-agents: **Researcher** and **Summarizer**.
+Here’s a tiny, single-canvas project you can build in n8n to get a **Primary Agent** that delegates to two **AI Agent Tool** sub-agents: **Researcher** and **Summarizer**.
 
 # Layout (one canvas)
 
