@@ -16,6 +16,8 @@ For learning Full-Code development refer to this [Learn Agentic AI](https://gith
 
 [n8n vs Python Agentic Frameworks](https://chatgpt.com/share/689ca2f2-1c88-8001-8721-3682c1ca8244)
 
+![](compare_others.jpg)
+
 ## What are AI Agents?
 
 ![](agent.png)
