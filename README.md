@@ -1,10 +1,38 @@
-# Agentic AI Development with Low-Code n8n and Model Context Protocol (MCP)
+# Low-Code Agentic AI Development with n8n, Loveable, UXPilot, Supabase and Model Context Protocol (MCP)
+
+![](./stack.png)
 
 [Class YouTube Videos](https://www.youtube.com/playlist?list=PL0vKVrkG4hWq5T6yqCtUL7ol9rDuEyzBH)
 
 This repo is part of the [Panaversity Certified Agentic & Robotic AI Engineer](https://panaversity.org/) program. You can also review the certification and course details in the [program guide](https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing). This repo provides learning material for n8n course and certification.
 
 For learning Full-Code development refer to this [Learn Agentic AI](https://github.com/panaversity/learn-agentic-ai) repository.
+
+
+---
+
+Perfect 👌 — here’s the **student introduction** updated with **prompt & context engineering** as the starting point:
+
+---
+
+### 🚀 Introduction to Our Low-Code Full-Stack for Developing AI Agents
+
+
+In this course, we’ll explore how to build modern AI-powered applications using a **low-code full-stack approach**. Instead of coding everything from scratch, we’ll use specialized tools for each layer of the stack and connect them seamlessly:
+
+* 🎨 **UXPilot** – for designing professional **UI/UX mockups** that shape how the app will look and feel.
+* 💻 **Lovable.dev** – for quickly turning those designs into a functional **frontend application**.
+* 🤖 **n8n** – for building **AI agents and workflows**, automating tasks like retrieval-augmented generation (RAG), file processing, and business logic.
+* 🗄️ **Supabase** – for managing **data storage, authentication, and vector search** on the backend.
+* 🔗 **Model Context Protocol (MCP)** – as the **integration layer** that connects AI models with our tools, databases, and workflows, ensuring secure and standardized communication.
+
+📚 **We’ll begin with Prompt and Context Engineering** – the foundation of working with AI systems. You’ll learn how to craft effective prompts, structure context, and control how AI models interact with tools and data through MCP. Mastering this first step will make the rest of the stack far more powerful and intuitive.
+
+By combining **prompt engineering + low-code tools + MCP**, you’ll gain the skills to design, develop, and deploy AI-driven full-stack ai agents and applications **faster, smarter, and more reliably**.
+
+---
+
+
 
 ## What is n8n?
 
