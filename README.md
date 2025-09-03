@@ -1,4 +1,4 @@
-# Low-Code Agentic AI Development with n8n, Loveable, UXPilot, Supabase and Model Context Protocol (MCP)
+# Low-Code Full-Stack Agentic AI Development
 
 ![](./stack.png)
 
@@ -8,10 +8,6 @@ This repo is part of the [Panaversity Certified Agentic & Robotic AI Engineer](h
 
 For learning Full-Code development refer to this [Learn Agentic AI](https://github.com/panaversity/learn-agentic-ai) repository.
 
-
----
-
-Perfect 👌 — here’s the **student introduction** updated with **prompt & context engineering** as the starting point:
 
 ---
 
