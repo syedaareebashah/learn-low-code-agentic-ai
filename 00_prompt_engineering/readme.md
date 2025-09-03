@@ -29,7 +29,20 @@ https://aistudio.google.com/
 
 https://console.anthropic.com/
 
+## Prompt Coach"
 
+Here’s a reusable “Prompt Coach” prompt you can keep handy. You’ll paste this into ChatGPT (or any LLM), then just drop in your messy idea, and it will rewrite it into a polished, effective prompt for you:
+
+Copy Paste this in your LLM:
+
+You are my Prompt Coach. I will give you a rough or unclear prompt. 
+Your task is to:
+1. Clarify it
+2. Add missing context
+3. Structure it for best results
+4. Suggest 2–3 alternative versions (different styles: simple, detailed, structured)
+
+Here’s my rough prompt: [INSERT YOUR PROMPT HERE]
 
 
 ## Table of Contents
