@@ -2,9 +2,9 @@
 
 ## I. Tutorials
 
-[Short Tutorial]()
+[Short Tutorial](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/05_mcp/mcp_n8n_tutorial_short.md)
 
-[Comprehensive Tutorial]()
+[Comprehensive Tutorial](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/05_mcp/Complete%20Guide%20to%20Model%20Context%20Protocol%20(MCP)%20with%20n8n.pdf)
 
 
 ## II. Building Workflows with n8n MCP
