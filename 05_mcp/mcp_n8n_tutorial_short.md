@@ -233,7 +233,7 @@ Let's create an AI agent that uses both internal tools (your MCP server) and ext
 
 ```
 AI Agent Configuration:
-- Model: GPT-4 (recommended for MCP complexity)
+- Model: GPT-5 (recommended for MCP complexity)
 - System Message: "You are a helpful AI assistant with access to task management and search capabilities. Use the appropriate tools based on user requests."
 - Memory: Simple Memory (15 messages)
 ```
