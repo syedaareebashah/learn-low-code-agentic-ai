@@ -13,7 +13,7 @@
 
 [This n8n mcp is INSANE... Let AI Create your Entire Automation](https://www.youtube.com/watch?v=xf2i6Acs1mI)
 
-III. Supabase
+## III. Supabase
 
 https://supabase.com/docs/guides/getting-started/mcp
 
