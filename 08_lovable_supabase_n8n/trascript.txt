@@ -1,0 +1,622 @@
+0:00
+in this video I'm going to show you how to build a full flashed full stack application using lovable. deev nadn and
+0:07
+superbase this application is going to have functionality such as authentication meaning somebody can sign
+0:13
+up and log into their account we're going we're going to create that uh signin process and the authentication in
+0:20
+stored on our superbase account and we're also going to utilize and end to be able to upload files to our Vector
+0:26
+databases in our superbase account we're going to be able to delete the files all from the front end that we're going to
+0:33
+create using lovable and we're also going to be able to chat with our application to retrieve information
+0:39
+essentially a rag which will have the lovable user interface this is going to be a very powerful application that you
+0:45
+can build for your clients or for your own personal use case again you can use this as an inspiration so that way you
+0:51
+can build your own application I'm going to go ahead and start with a demo so that way you can see that everything is working that everything is connected
+0:57
+together and then we're going to go ahead and walk through step by step and show you exactly how to build this thing using lovable for the front end and then
+1:04
+also how to store all of this information in our super base and our Vector database so without any further
+1:09
+delay let's Jump Right In All right so the first thing I'm going to do is I'm going to go to my blank um ENT canvas so
+1:16
+we're going to actually import my uh workflow here so I'm going to go to my school community in the class section
+1:23
+and right here so I'm going to import this Json template so I'm going to download this and then I'm going to come
+1:28
+back to my and it then here go to these three dots right here and click on
+1:34
+import from file and now I'm going to just import this file right here all
+1:40
+right so everything got imported over again this is going to add files to the VOR database this particular workflow
+1:47
+right here is going to delete the file from super base and this is where we're going to chat with our data or our files
+1:53
+inside our back base but anyways let's go ahead and take a demo first take a look at Demo First so I'm going to actually try to minimize this so that
+2:00
+way you can see exactly what's going on right let's bring this over
+2:07
+here let's go back to our lavable
+2:14
+here all right cuz I just want to show you exactly what's going on oh wow that's too
+2:19
+small we're going to first test this step where we're going to add our file to our Vector database um and then we're
+2:26
+going to go ahead and do the rest afterwards so let's go ahead and first um get started right here on the lovable
+2:32
+side actually you know what let me actually log in first so create an account here so let's go ahead and get started I'm going to click on get
+2:38
+started so now here it says if you don't have an account sign up or if you already have an account you can sign in
+2:44
+just like a normal application would or in a website would so we're storing all of our authentication and profiles when
+2:51
+when a user creates an account right here on our superb stable called profiles as you can see I already have
+2:56
+one so I'm going to go ahead and log in and then I'm going to come back and show you how to create one if you don't have an account so let me go ahead and put my
+3:03
+password here so I can at least show you the demo so I'm going to sign in so now
+3:09
+as you can see uh here I am I have the ability to upload files PDF files so that way I can interact with it right so
+3:16
+let me go ahead and now go to the table so that way you can see on the files table right now it's
+3:23
+empty right the files file table is empty and then also the vector data table is empty so this is a table that
+3:29
+that's going to uh have um the vector embeddings once we vectorize our documents and I'm going to show you
+3:36
+exactly uh that after we come back and upload our file you'll see that there will be new vectors here from our files
+3:42
+here so let me go ahead and now minimize this or pull this on the side go right
+3:48
+here so I'm going to listen for my where the test workflow
+3:55
+here test workflow so now we're going to be listening for all of these web hooks
+4:01
+that are coming in right here so it should initiate this one which means adding files to Vector database as soon
+4:07
+as I upload the file here so let's go ahead and do that let me go ahead right
+4:12
+here so I'm going to click on upload file so I'm going to grab this Alex Carter's resume so let me go ahead and
+4:18
+upload that so now as you can see on the left hand side as you can see there you go now it's being activated so this
+4:24
+initial um workflow is being updated this is updating uh the vector database so it's going to vectorize the file and
+4:31
+it's going to upload this particular document into the vector database on our lovable or our super base here so now
+4:38
+I'm in the vector's data table so if I refresh the page now you should be able to see some data in there because we
+4:43
+just uploaded the file so if I refresh the page now we should be able to see the
+4:48
+embedding files there you go right name Alex Carter contact so this is just Alex Carter's resume we can add more files
+4:54
+later on but you can see everything got uploaded and if we go to the files tab right here so now we'll be able to see
+5:00
+that we have a new file right here alexc carter. PDF that's exactly
+5:05
+the file that we uploaded right so now we're going to interact with this file from our lovable front end right so
+5:11
+we're just going to click on chat with files now and now we should be able to chat with this document through our
+5:17
+Vector database so let me go ahead and pull up um oops that's not what I meant to do let me actually go ahead and pull
+5:24
+up this Alex Carter's resume so all right so here we go so
+5:30
+this is Alex Carter's resume right so so right now let's see um let's take
+5:35
+a look let's ask this to see where did Alex Carter go to college right so it should say uh University of California
+5:41
+at Berkeley so if we have everything set up properly then we should be able to grab that all right so let me now zoom
+5:48
+in a little bit here so that way you can see that now this AI agent should be
+5:53
+activated right so now you'll see that I'm going to click on test workflow and it will be listening for this right
+5:59
+right here so that way we will interact with this document from our front end it should be able to grab and activate this
+6:05
+workflow and the AI agent will be retrieving this information from our super base back to database so I'm going
+6:10
+to click on task workflow so let's go ahead and now create a new chat and I'm
+6:16
+going to say where did Alex Carter go to college right something
+6:23
+like this so now if I press enter so now it should reach out to our to our web hook here there you go they I agent gets
+6:30
+activated it retri retrieves the information from our superbas Vector database and now it's going to respond
+6:35
+back to the um uh front end here right here it says Alex Carter attended the University of California berky where he
+6:42
+earned a Bachelor's of Science in computer science and if you pull that up that's exactly uh correct right so he
+6:48
+attended computer science and um um or he attended California Berkeley and
+6:55
+received a degree in Bachelor's in computer science so perfect everything worked so now this let's test this
+7:01
+workflow where we'll be able to delete this file from our superbase Vector database right so now let's go ahead and
+7:08
+go back to our files so now I should be able to click on delete and this should initiate this process and delete our uh
+7:17
+file from our Vector database and all of the vector data here as well so let's go ahead and test that so now I'm going to
+7:23
+go ahead and click on test workflow again and you should see this gets initiated that everything is correct so I'm going to click on delete
+7:31
+there you go that got initiated it deleted the workflow so now if we go ahead and take a look at it right here
+7:37
+refresh the page and perfect it says this table is
+7:43
+empty right so it uh deleted all of the vectors from that Vector database and the reason why this is important is
+7:49
+because you don't want to rev vectorize right so you want to be able to have the ability to delete the file and then when
+7:54
+you're uploading something different you should be able to vectorize that again so that's why this is very important to
+8:00
+have this particular step in there as well all right so now that you have seen this so let me maximize this right here
+8:06
+so again we'll have the first one is going to be adding to superbase Vector database we're going to vectorize the
+8:12
+document the second one is deleting it from super base and the third one is for us the ability to chat with this
+8:19
+document all right so let's go back to our lovable. deev now and take a look at what's going on here and how this was
+8:25
+created uh so let me actually go back to my off here actually I'm just going to
+8:31
+sign out and start from start from the beginning sign out all right so this is you know just a
+8:38
+UI and you can use chat GPT or CLA to be able to create any kind of UI and I'm going to show how to do that uh but just
+8:46
+quickly What's Happening Here is like we're creating the front end UI and when you click on get started you you have
+8:51
+the ability to sign up create a new account or login right so that's what's happening here and again all of the
+8:56
+authentication will be stored in our super base that I'm I'm going to show in a little bit all right so let me quickly
+9:01
+go over and show you how simple it is to nowadays build a full stack application
+9:07
+uh with lovable lovable. deev is great it's actually one of my favorite platforms out there but there's curses
+9:12
+and others but I like using lovable a lot so essentially this right here we're
+9:17
+giving it the proper the initial instruction to create our front end right here so the way to do this is
+9:24
+literally you can just take a screenshot of whatever file you have right you can take this upload this to a chat GPT or a
+9:32
+clot and say hey create I want to
+9:37
+create the attached app please provide actually I'm just
+9:43
+going to attach app using lovable
+9:48
+dodev please provide the prompt so you can again play around and
+9:55
+take a look at the different uh sections that you want to create this is just example you can literally just copy this
+10:01
+and paste it on lavable now it's very easy to sign up for lavable lavable has great free accounts you can get started
+10:06
+there and as soon as you come in you just right here on the left hand side you can have an interaction with this
+10:12
+app and go back and forth between the preview and once it creates something if it runs into any kind of error you can
+10:19
+always chat back and forth with it just like you would in a normal chat gbt for example right so it's a really great no
+10:24
+code way to create any application a website an app a full stack app an R case and um everything else that you can
+10:31
+do so that's literally what I what we did right here went to chat GPT Say Hey I want to create something like this
+10:37
+copy the prompt from chat GPT add it here and that's how I you get started right so it says okay I'll help you
+10:43
+create stunning hero section the following modern design so again if you don't like any of these you can change
+10:49
+it and once it creates it if you don't like it you can go back and forth with it right so it's a same idea right here
+10:54
+so once it created the first one it says I've created a beautiful and responsible hero section with elegant animation
+11:00
+premium design blah blah blah so now you're like okay well the CTA and sign up buttons are not clickable right so
+11:06
+because obviously once it creates the front end a lot of times the buttons are not going to work so you same thing just go back and forth you test everything
+11:13
+one step at a time and you say okay well right now I'm clicking on sign up button it's not working so you say all right
+11:19
+fix this and it'll go ahead and Implement that right and then afterwards same thing now once you're done with
+11:24
+this once you everything is clickable and once you are satisfied with the UI so the next step is to be able to
+11:31
+connect your super base to lavable now the great thing is that lavable already has a connection with superbase so now
+11:37
+it's very very simple to do you literally again I I said please connect my super base project L to you know
+11:44
+because that's the uh project that I already have inside my super base so make sure you have a project that you
+11:50
+have already created so this is the name that we're grabbing right so we're putting that literally right here and if you want to know how to connect your
+11:57
+lovable to superbase the account like you can literally go to YouTube and search so they have uh this is their
+12:02
+Channel lovable uh so they have several videos on how to that they show you how to connect your um lovable to your
+12:09
+superbase account introduction to superbase this is a good one so there are a lot of really great guides if you
+12:15
+want to do something in particular with your lovable and superbase account as far as the connection goes you can
+12:20
+certainly do that but essentially you know I followed that instruction and I said please connect my superbase project
+12:25
+lovable which is the name right here as you can see to this particular uh app so now same thing I'm now connecting to you
+12:32
+to your superbase project to gather database structure tables and security setting right so that's what you're doing you just going back and forth with
+12:38
+this so afterwards it's like oh the CTN sign up buttons is not clickable make both buttons clickable create an app and
+12:44
+sign in blah blah blah you just go back and forth with it till everything is properly working right so now it will
+12:51
+give you the SQL data and then it will ask you to approve this and once it's good to go you can go ahead all right
+12:57
+and say uh uh everything looks good go ahead and run so once you're uh going
+13:02
+back and forth and once everything is done so now you'll be able to add everything to your account and now once
+13:09
+that is connected to your superbase account so the way to actually add the authentication to your NAD here because
+13:16
+this is the important part right like we need to be able to add all of this and connect it to our superbase account and
+13:22
+then also to our lovable account via our web hook here so I've done plenty of
+13:27
+tutorials on how to connect web hooks but essentially you create a node called or
+13:32
+you create the web hook node and then this is the URL that you're going to post and add to your superbase account
+13:40
+and then also to your lovable application when you creating it and the way to do that is literally you just
+13:46
+copy this right you go again same thing you just go back and forth with this so at the end I said
+13:51
+um the web hook URL called the web hook URL in the chat with files Edge function
+13:57
+has been updated uh oh sorry this is what I did so I just changed the web hook URL from this to this which is
+14:03
+basically going from test to production but it just shows you how easy it is to add that so once you are ready once
+14:09
+everything is good to go on your side you just basically say okay now add uh for me the ability to interact with my
+14:16
+nadn backend via this particular web hook right and then once you do that then you can start testing it out and
+14:23
+you'll be able to receive information back and forth between your lovable and your naden again I'm planning to do more
+14:29
+tutorials on this and make a bit more simpler app so that way you know how to build these things so now after you do
+14:36
+that another important thing is to connect your uh superbase account also via web hook so that way it has that
+14:42
+interaction back and forth so the way to do that is you go to Integrations and you add this database web hooks so if
+14:50
+it's not already installed you literally just click on it and get it installed once you have this installed you will
+14:55
+head over and next to the overview it says web hooks so next to web hooks this is where you will add two web hooks one
+15:01
+web hook to upload file and another web hook to delete file right and this is U because we have two yeah so right here
+15:09
+we have this first one that we're going to be able to upload our file to our VOR database and another one that we're going to be deleting files from super uh
+15:16
+superbase and this is all done via our web hook because the command is going to be coming in from our lovable front end
+15:22
+so therefore we need to be able to uh give the superbase the ability to interact with this web hook as soon as
+15:29
+we receive the command from our Lile front end right so the way to do that is very simple you'll click on create new
+15:35
+web hook or create new new hook you uh give it a name and then you also add so
+15:40
+let me go back so this has more data if I click on edit hook yep so you create the name upload file the tables you
+15:47
+select the tables that you would create on your super base and again I've done a step-by-step tutorial on how to create
+15:54
+the files and your superbase account so please make sure you watch that it's also inside my School community so if
+15:59
+you have any questions uh you know feel free to jump in and ask that question in one of the calls or you can um put your
+16:07
+questions in ask this channel always as well all right so once you um where go
+16:12
+yeah so right here once you're add the name uh select the table files you'll select the post the method as post and
+16:19
+this is where you'll add your url right so this is exactly what I'm doing I'm grabbing literally this URL right here
+16:27
+and putting it in my HT HTP request method right here so once you're done you will have both of these web hooks
+16:34
+that are working now and they should be able to interact now back and forth from lovable to NAD then back to super base
+16:40
+right so that's why this is such an important uh part right here and then also another important thing is like
+16:45
+when you uh sign up right so right now as you can see it says uh sign in but
+16:51
+let's go ahead and sign up with the new account okay so I'm going to click on sign up and if I go back to my lovable or my super base here so let's go ahead
+16:58
+and take a look at the tables table editor and here are the
+17:03
+profiles so right now there's only one profile it's just my email right here so
+17:09
+now you will see that I'm going to sign up and we'll be able to add a new profile right here so I'm going to say
+17:17
+jacksmith gmail.com right all right whatever you
+17:22
+know we're not going to authenticate it or we're not going to be we're not going to use this so I'm just going to put whatever so if I click on sign up now
+17:28
+when we go back and refresh this they should be able to add another one right here if I click on sign up it says
+17:36
+loading check your email to confirm your account so this again that's another thing you you also can add a
+17:42
+authentication to confirm the email so that way it's not just some bot right so now if I fresh the page right here
+17:48
+refresh the page and perfect there you go this uh
+17:54
+just got added right so that's exactly what we're doing here this is where we're storing all follow the profile so
+17:59
+that way we remember all this information so next time when a person comes in to our uh account right here in
+18:05
+the front end they'll be able to Lo log in with their account right so that's what this does let me get rid of all
+18:12
+this but anyway so I'm going to go ahead and actually sign in to my existing account boom it's
+18:25
+fine all right so now I'm logged in I'm going to go ahead and upload click on upload file and then we're going to go
+18:30
+ahead and I'm going to show you exactly what happens kind of in each node and show you how to kind of grab that
+18:36
+information that's coming in from lovable so let's go ahead and upload a file actually you know what I'm going to listen for test first I'm going to click
+18:43
+on test workflow here so that way this thing is listening now if I go back to
+18:48
+lovable here and click on upload file so this time we're going to upload Jordan Smith's resume okay so if I bring in
+18:54
+Jordan Smith's resume Jordan Smith right here
+18:59
+uh when to and I'm we're going to interact and ask him the same question like we did earlier doing the demo about the education so let's go ahead and
+19:06
+upload Jordan Smith's resume here get rid of this add upload Jordan Smith's
+19:13
+resume all right that's uploading so now this should be initiated there you go that got initiated so now this should go
+19:19
+ahead and factorize that add it to Super based Factor database and perfect that's done so if we go back to our lovable
+19:25
+there you go that file is there now let's check our super base refresh the page so this should have Vector data
+19:32
+now hopefully unless I did something wrong uh let that load for a
+19:41
+second it's taking unusually long all right there you go perfect name
+19:48
+Jordan Smith contact blah blah which means that it uploaded the proper documentation okay so now let's go ahead
+19:53
+and take a look at our nadn and see what's going on here so I'm bring this up here I'm going to zoom in just on
+19:59
+this section because this is what we're doing which is adding file back to database so we're going to click on web
+20:04
+hook so what's happening right here is all of this information from the front end is coming in through this web hook
+20:12
+and as you can see um the information that's being added here is that file so
+20:17
+it has its particular ID it has the name the size and the type which is application SL PDF right and it has its
+20:24
+own unique identification so now the way to interact or the way to have lovable
+20:30
+interact to your NAD is very very simple you literally copy this you go to lovable and you just say essentially hey
+20:38
+I want to be able to interact
+20:43
+with NN via the following web hook right web hook if I can post
+20:53
+this and you're going to paste that web hook uh I don't know why I didn't paste
+20:58
+but but anyways so the uh yeah right here probably didn't copy it yep and now
+21:03
+once you press enter here so this should be able to now interact with your entire applic I don't want to do that right now
+21:09
+because otherwise like it's going to ruin kind of the entire application but I already did this up here so if I
+21:15
+scroll up I think it was somewhere around here uh there you go yeah so I said now
+21:21
+create an edge function to connect with n and web hook to send the chat query and receive response to show the chat reply and interface so this was for the
+21:27
+chat portion but it's the same thing you say pass the session ID to user with the query web hook URL right here right so
+21:34
+same thing and if you run into kind of issues you just go back and forth with lovable and say hey I'm running into
+21:39
+this error fix this right or something else happens you just kind of go back and forth till it will figure out
+21:44
+exactly what you want so essentially that's how you interact with your nadn from the back end so once you receive
+21:51
+this information so what's happening in this step is that now we're grabbing that information we're grabbing this
+21:56
+file uh and we're going to grab all of the existing rows that are inside on our
+22:02
+table here so you want to make sure you're identifying again if you don't know how to use um super base please
+22:08
+watch my previous video not this particular previous video right before this one but I did a few uh videos back
+22:14
+where I go through a step by step and show you how to add and how to connect your super base to your nadn and there's
+22:20
+plenty of other tutorials on YouTube as well I think uh Cole did a great tutorial on this one so there's plenty
+22:26
+of tutorials out there on how to add and connect your superbase account to your NN but essentially we're grabbing the
+22:33
+files here or the rules here and from that particular account now we're going to use this HTTP request because I want
+22:40
+to download the file that just got uploaded to our um superbase account so
+22:45
+right here as you can see from the previous note right we're uh we're grabbing that information which is uh
+22:52
+that file Jordan Smith resume.pdf that got uploaded so we we need to now be
+22:57
+able to download that from uh our superbase table and therefore so we can
+23:04
+add this to our superbase Vector database those are two different things remember when somebody's adding a table
+23:10
+from the front end in lovable because that's directly connected to our superbase account so that gets added to
+23:16
+the table so now what we're doing is we're retrieving that information or we're retrieving that file via this uh
+23:23
+web hook or via this HTTP request which again is just directly reaching out to super bases storage right this is their
+23:31
+uh API path to grab that file and download it and that's exactly what we're doing again it's very simple you
+23:37
+just set up your authentication you hit this endpoint and this will grab that data that just got uploaded um and it's
+23:44
+going to download it right here so this got downloaded now the next thing we're just going to add an extract file so
+23:49
+we're going to extract all the information from this file and then we're just adding this to our Vector database right so make sure you have you
+23:56
+select the proper table which in our case is our our vector's data table so if I go back right here this is that
+24:01
+vector's data table that uh I have inside my super base so once you grab
+24:06
+that information and up so now we're inserting this documentation that we grabbed from this HTTP request from our
+24:14
+table and we're vectorizing it right so same thing this is a very simple process we're just going to use the default data
+24:20
+loader we're just going to grab the file path because we're using a metadata here um so we're grabbing that information
+24:26
+we're uploading it to our vector database we're chunking it and we're going to add a response to web hook this
+24:31
+is just a simple one so you choose response to web hook and you select the response or respond with the first
+24:38
+incoming item so that way um kind of this Loop gets closed right so that's how you can add your information and the
+24:45
+reason why again this web Hook is important inside your naden is because
+24:50
+that's how you're communicating back and forth right so that's that step that's what's happening so now the second step
+24:56
+is deleting this so let's go ahead and do the same thing and now I'm going to go ahead and delete this so let me
+25:01
+listen for this again so I'm going to click on test workflow so now if I click on
+25:11
+delete oh go through oh yeah there you go it went through it deleted it so same thing
+25:17
+we're grabbing that information we're grabbing that information that's coming in from our our Lev B through this web
+25:22
+hook we're deleting the row inside that table inside our Vector database using
+25:28
+this metadata right because we want to be able to use and identify which exact
+25:33
+um rule to delete and we're going to respond back limit just means just because you're limiting it to one item
+25:39
+so you don't want to delete more than one and Responding back very very simple so same thing now if you want to be able
+25:46
+to chat with this right because it's already there oh I actually already deleted it let me add it again so now
+25:53
+I'm going to add this again to file
+25:58
+Smith resume okay uploading so now this should initiate again there you go
+26:04
+perfect so same process I just mistakenly deleted it but now let's go ahead and test this step right so now we
+26:10
+should be able to interact with this I'm going to delete this test workflow so
+26:15
+now I should be able to chat with the files here so I'm going to do new chat I'm
+26:23
+going to say where did Jordan Smith go to
+26:33
+college so I'm going to press send and now it's loading so now it's going to reach out to the AI agent the
+26:40
+AI agent is going to reach out to the vector database the superbase vector database and respond back to our web
+26:45
+hook right so you were responding back you Jordan Smith attended the Community College of San Francisco where they earned an associate degree in computer
+26:52
+science so let's double check now this is his resume education associate degree in
+26:58
+computer science Community College of San Francisco perfect right so it means that we are interacting with the proper
+27:03
+data with the proper documents so now let's go back to our end so let's see what's going on here same thing so now
+27:09
+in this web hook we're sending so let me go to Json here we're sending actually
+27:16
+the message that the user is sending right so we need to ask we need to send
+27:21
+that question or that query to this AI agent so it can process it so again that came through here where your did Jordan
+27:28
+Smith go to college so now if I go back here inside my AI agent I'm literally
+27:35
+grabbing that json. body. message which again is coming in from right here so this is the message that's coming in and
+27:42
+I'm just putting it right here and just saying you're a helpful uh assistant your job is to answer CER using get info
+27:48
+tool get info tool is coming in from this left hand side right here so now um oh sorry the get info
+27:56
+tool is our um answer and question with Vector store this is the tool that we added right so again we're going to add
+28:02
+our postr chat memory same thing you're going to grab the table inside your uh super base again so you should make sure
+28:08
+that you're creating this nadn chat table so that way you're connecting that um so that's what's happening here so on
+28:15
+our uh postgress chat we're just grabbing that session ID so that way we can respond to that message properly and
+28:22
+then on our answer and question chain so this is just we're naming the data uh we're naming this answering question
+28:29
+with the vector store uh um get info and we're saying use this tool to retrieve information from the vector store very
+28:35
+very simple so that's why in the system message here we said using the get info tool right so make sure the two names
+28:41
+match here so this is reaching out to super superbase back to database and again as far as the user ID we're
+28:48
+grabbing the user ID from the web hook right because we need to be able to have that seamless interaction so this is
+28:54
+where that user ID is coming from right here user ID right right okay sorry
+28:59
+that's s an ID user ID is right here and if you run into you know problems you can always just take a
+29:06
+screenshot put it on chat GPT or cloud and you can go back and forth and it'll fix those things for you so that's how I
+29:12
+when I run into an issue I just grab that screenshot added to my custom chat GP that I created from my community and
+29:18
+it an architect so that way it gives me a bit more uh precise data so that's how
+29:24
+you can kind of communicate there but anyway so once you grab that information the output as you can see Jordan Smith attend the Community College of San
+29:29
+Francisco this is sending it back to the web hook and you're just grabbing that information sending it back out to
+29:35
+lovable right here and it will respond properly so that's exactly what's happening here nothing too complicated
+29:41
+again uh to connect to your super base it's very simple you just click on this button if you want to watch kind of a
+29:48
+tutorial um right here this is a good one on lovable Channel Isaac I believe he did like a really good job of
+29:54
+explaining how to do this he creates like a full stack app as well so make sure you watch that because he'll show you exactly how to build or connect your
+30:01
+uh lovable to your super base obviously he doesn't have the end and end portion but that's why I walk through on the end and end step by step so you see exactly
+30:08
+what's going on here all right well hopefully you found this helpful sorry if it was not too much step by step
+30:13
+because otherwise that would have taken like 6 hours to create this video but again the great thing about um the whole
+30:19
+point I was trying to portray here is that you start here from your chat GPD whatever app you want to you want to
+30:25
+make you want to build and you just go back and forth with love if you run into any issues if you run into errors it's
+30:30
+really good at resolving those things and then same thing with the web hook you tell um lovable to send all the
+30:36
+information the communication back and forth via the web hook and you're grabbing this web hook URL from your
+30:42
+nadn and you're connecting it to your super base account anyways I'll be doing uh a lot more of these so again if this
+30:47
+was too complicated I'm planning to do more videos especially for my school Community to kind of show you how to just start uh easy just connecting a web
+30:55
+Hook from lovable to your AI agent or to your workflow so that way you can get started but this is a good idea I just
+31:01
+wanted to Showcase first what's possible with this with these tools now so that
+31:06
+way you can see what you can build and then later on we'll go ahead and create kind of simpler versions of these so
+31:12
+that way you know exactly how to connect these different tools together to build a very powerful application and again
+31:18
+this is a very simple kind of chat with your documentation but you can imagine the whole concept that now you can build
+31:24
+even more power for application because you can have super base which is your whole like powerful data source
+31:31
+authentication you can save everything there and all the communication can go back and forth between your nadn and
+31:37
+your lovable via a web hook right so you can see this could be very powerful and you can build a lot of great stuff with
+31:43
+it anyways thanks for watching this video hopefully you found it helpful and I will be doing a lot more of these so
+31:49
+make sure you subscribe and like the video because there's a lot of great content coming up and again if you were serious about learning how to build
+31:55
+amazing AI agents make sure you join our AI Workshop Community because we have a great uh set of individuals and people
+32:02
+who are passionate about learning how to utilize naden to make money improve their lives improve their businesses and
+32:09
+much much more I'm going to put the link in the description for both this for The Lovable make sure you sign up for the
+32:14
+account and thanks for watching again I'll see you on the next one
