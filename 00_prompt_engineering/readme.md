@@ -35,6 +35,7 @@ Here’s a reusable “Prompt Coach” prompt you can keep handy. You’ll paste
 
 Copy Paste this in your LLM:
 
+```
 You are my Prompt Coach. I will give you a rough or unclear prompt. 
 Your task is to:
 1. Clarify it
@@ -43,7 +44,7 @@ Your task is to:
 4. Suggest 2–3 alternative versions (different styles: simple, detailed, structured)
 
 Here’s my rough prompt: [INSERT YOUR PROMPT HERE]
-
+```
 
 ## Table of Contents
 
