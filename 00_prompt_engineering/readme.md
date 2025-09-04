@@ -59,6 +59,7 @@ Here’s my rough prompt: [INSERT YOUR PROMPT HERE]
 9. [Testing and Iteration](#testing-and-iteration)
 10. [Resources and Next Steps](#resources-and-next-steps)
 11. [Mixture-of-Experts (MoE) and Prompt Engineering](#mixture-of-experts-moe-and-prompt-engineering)
+12. [The 6-Part Prompting Framework]()
 
 ## What is Prompt Engineering?
 
@@ -887,5 +888,9 @@ As AI models continue to evolve, prompt engineering techniques will also advance
 The future of AI interaction lies in clear, effective communication—and prompt engineering is your toolkit for making that communication as powerful as possible.
 
 ---
+
+## The 6-Part Prompting Framework
+
+Now take your prompting to next level by following this [The 6-Part Prompting Framework]()
 
 
