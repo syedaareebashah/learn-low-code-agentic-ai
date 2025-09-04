@@ -59,7 +59,7 @@ Here’s my rough prompt: [INSERT YOUR PROMPT HERE]
 9. [Testing and Iteration](#testing-and-iteration)
 10. [Resources and Next Steps](#resources-and-next-steps)
 11. [Mixture-of-Experts (MoE) and Prompt Engineering](#mixture-of-experts-moe-and-prompt-engineering)
-12. [The 6-Part Prompting Framework]()
+12. [The 6-Part Prompting Framework](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/readme.md#the-6-part-prompting-framework)
 
 ## What is Prompt Engineering?
 
@@ -891,6 +891,6 @@ The future of AI interaction lies in clear, effective communication—and prompt
 
 ## The 6-Part Prompting Framework
 
-Now take your prompting to next level by following this [The 6-Part Prompting Framework]()
+Now take your prompting to next level by following this [The 6-Part Prompting Framework](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/six_part_prompting_framework.md)
 
 
