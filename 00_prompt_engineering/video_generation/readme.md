@@ -1,6 +1,6 @@
 # Video Generation Tutorial for Google Veo 3
 
-*By Example – with Real Prompts and Outputs*
+*By Example – with Real Prompts*
 
 Access at https://gemini.google/overview/video-generation/ or via [Gemini AI Studio](https://aistudio.google.com/prompts/new_chat)
 
