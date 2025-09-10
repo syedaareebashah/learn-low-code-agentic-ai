@@ -1,5 +1,7 @@
 # Prompt and Context Engineering Tutorial for Beginners: A Comprehensive Guide to Effective AI Communication
 
+**[Panaversity YouTube Class Playlist](https://www.youtube.com/playlist?list=PL0vKVrkG4hWpeKmZyCRTpfRiLQ13b5uRX)**
+
 <img src="stats.jpg" alt="llm_share" width="300"/>
 
 **Key Takeaways**
