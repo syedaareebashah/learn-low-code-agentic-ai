@@ -48,9 +48,9 @@ A well-structured prompt typically includes:
 
 **Prompt Used:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Wide establishing shot slowly pushing in to medium close-up of a confident business professional in a modern glass office. Subject walks purposefully toward floor-to-ceiling windows overlooking a city skyline. Wearing sharp navy suit, hands clasped behind back, slight head turn toward camera with determined expression. Golden hour lighting streams through windows creating dramatic rim lighting. Ambient sound of distant city traffic, subtle footsteps on polished floor. "This is where innovation begins," spoken with conviction. Cinematic color grading with warm highlights and cool shadows. Shot on RED camera with shallow depth of field.
-```
+</div>
 
 **Generated Video Characteristics:**
 - 8-second duration with smooth camera movement
@@ -73,9 +73,9 @@ Wide establishing shot slowly pushing in to medium close-up of a confident busin
 
 **Prompt Used:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Extreme close-up of weathered hands lighting a cigarette in dim noir lighting. Camera slowly pulls back to reveal a mysterious figure in a fedora sitting in a shadowy alley. Rain glistens on wet cobblestones, neon signs reflecting in puddles. The figure takes a slow drag, exhales smoke that drifts across frame. Sound of distant rain pattering, match striking, deep exhale. No dialogue, just atmospheric tension. Black and white with high contrast, film noir aesthetic. Shot on 35mm film with natural grain texture.
-```
+</div>
 
 **Style Elements:**
 - Noir cinematography with dramatic shadows
@@ -98,9 +98,9 @@ Extreme close-up of weathered hands lighting a cigarette in dim noir lighting. C
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Macro lens extreme close-up of sleek smartphone rotating slowly on white seamless background. Camera orbits the device revealing premium materials and precise engineering details. Soft studio lighting with subtle reflections on glass screen. Clean, minimal aesthetic with shallow depth of field. Subtle electronic music building gradually. No dialogue, focus on visual elegance. Color grading emphasizes cool blues and warm metallic tones. Shot with high-end macro lens, crystal clear detail.
-```
+</div>
 
 ✅ **Why This Works:**
 Creates premium product presentation with professional studio quality and synchronized music.
@@ -111,9 +111,9 @@ Creates premium product presentation with professional studio quality and synchr
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Medium shot of enthusiastic teacher at whiteboard explaining complex diagram with animated gestures. Camera holds steady as teacher moves naturally within frame. Modern classroom with soft natural lighting from large windows. "The key concept here is understanding the relationship between these elements," spoken with clarity and passion. Background ambient sound of classroom atmosphere. Clean, documentary style with accurate color reproduction. Educational content aesthetic with clear audio.
-```
+</div>
 
 💡 **Use Case:** Perfect for online courses, tutorials, or educational marketing content.
 
@@ -123,9 +123,9 @@ Medium shot of enthusiastic teacher at whiteboard explaining complex diagram wit
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Handheld camera following young woman as she walks through vibrant farmers market. Natural documentary style with organic camera movement. Subject samples fresh fruit, smiles authentically at camera. Golden hour lighting with natural shadows. Market ambient sounds: conversations, vendors calling, footsteps on pavement. "This is my favorite weekend ritual," spoken casually to camera. Warm color grading with slight film emulation. Mobile-friendly vertical composition option.
-```
+</div>
 
 💡 **Use Case:** Social media content, lifestyle branding, authentic marketing materials.
 
@@ -135,9 +135,9 @@ Handheld camera following young woman as she walks through vibrant farmers marke
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Surreal slow-motion sequence of paint splattering in mid-air against pure black background. Multiple colors colliding and mixing in impossible physics-defying ways. Camera rotates 360 degrees around the action. Dramatic studio lighting creates paint drops that shimmer like liquid metal. Abstract electronic soundscape with whoosh effects synchronized to paint movements. No dialogue, purely visual and auditory art piece. High contrast color grading with saturated primaries.
-```
+</div>
 
 💡 **Use Case:** Art installations, creative portfolios, experimental marketing campaigns.
 
@@ -186,60 +186,60 @@ Understanding the model's current limitations like the 8-second clip length are 
 ### 1. **Sequential Storytelling**
 Veo3 works well with 'this then that'. You can direct a chain of different emotions or physical actions within a single prompt, allowing for complex emotional arcs in a short time.
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Subject starts looking down pensively, then slowly lifts head with growing confidence, finally smiling directly at camera with determination.
-```
+</div>
 
 ### 2. **Cinematic Camera Language**
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Opening: Wide establishing shot of location
 Middle: Medium shot showing character interaction  
 Close: Extreme close-up revealing emotional detail
 Movement: Smooth dolly push-in for intensity
-```
+</div>
 
 ### 3. **Professional Lighting Setups**
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Key light: Main illumination from camera left
 Fill light: Soft bounce light reducing harsh shadows
 Rim light: Backlight creating subject separation
 Practical lights: In-scene light sources (lamps, windows, neon)
-```
+</div>
 
 ### 4. **Audio-Visual Synchronization**
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Visual: Character's mouth opens in surprise
 Audio: Sharp intake of breath, background music swells
 SFX: Door slamming in distance
 Dialogue: "I can't believe this is happening"
-```
+</div>
 
 ## Style Categories & Templates
 
 ### Corporate/Professional
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 [CAMERA ANGLE] of [PROFESSIONAL SUBJECT] in [MODERN ENVIRONMENT]. [CONFIDENT ACTION/POSE] while [RELEVANT ACTIVITY]. [PROFESSIONAL LIGHTING] creates [MOOD]. [CORPORATE AUDIO: ambient office sounds, confident dialogue]. [CLEAN VISUAL STYLE]. Shot with [PROFESSIONAL CAMERA SPECS].
-```
+</div>
 
 ### Cinematic/Narrative
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 [DRAMATIC CAMERA MOVEMENT] reveals [CHARACTER] in [ATMOSPHERIC LOCATION]. [EMOTIONAL ACTION] as [ENVIRONMENTAL DETAILS] enhance the mood. [CINEMATIC LIGHTING] with [SHADOW/HIGHLIGHT EFFECTS]. [LAYERED AUDIO: dialogue, ambient, music]. [FILM STYLE] with [COLOR GRADING]. [TECHNICAL CAMERA SPECS].
-```
+</div>
 
 ### Documentary/Educational
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 [NATURAL CAMERA WORK] captures [SUBJECT] engaged in [AUTHENTIC ACTIVITY]. [EDUCATIONAL DIALOGUE] delivered naturally. [NATURAL LIGHTING] in [REAL ENVIRONMENT]. [DOCUMENTARY AUDIO: clear speech, ambient sound]. [REALISTIC STYLE] with [NATURAL COLOR GRADING].
-```
+</div>
 
 ### Creative/Artistic
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 [EXPERIMENTAL CAMERA TECHNIQUE] showcasing [CREATIVE SUBJECT] in [SURREAL/ARTISTIC ENVIRONMENT]. [ABSTRACT MOVEMENT/ACTION] with [IMPOSSIBLE PHYSICS]. [DRAMATIC LIGHTING EFFECTS]. [ARTISTIC AUDIO: abstract soundscape, experimental music]. [STYLIZED VISUAL TREATMENT] with [CREATIVE COLOR/EFFECTS].
-```
+</div>
 
 ### Social Media/Lifestyle
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 [MOBILE-FRIENDLY CAMERA ANGLE] following [RELATABLE SUBJECT] through [EVERYDAY ENVIRONMENT]. [AUTHENTIC INTERACTION/ACTIVITY] with [GENUINE EMOTION]. [NATURAL LIGHTING]. [CASUAL DIALOGUE] and [AMBIENT SOUNDS]. [SOCIAL MEDIA AESTHETIC] optimized for [PLATFORM REQUIREMENTS].
-```
+</div>
 
 ## Common Mistakes to Avoid
 
@@ -274,7 +274,7 @@ Before submitting your prompt, verify:
 
 ## Advanced Prompt Structure Template
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 [CAMERA MOVEMENT/ANGLE]: [Specific camera direction and framing]
 [SUBJECT]: [Detailed character/object description]  
 [ACTION]: [What happens within 8 seconds]
@@ -287,7 +287,7 @@ Before submitting your prompt, verify:
   - Music: [Background music style]
 [VISUAL STYLE]: [Overall aesthetic and color treatment]
 [TECHNICAL]: [Camera specs and film format if relevant]
-```
+</div>
 
 ## Conclusion
 
