@@ -42,13 +42,15 @@ A well-structured prompt typically includes:
 
 **Prompt Used (from your case):**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Hyper-realistic full-body portrait of the uploaded photo, standing casually against a smooth light-gray wall. The outfit is as worn as in winter. The hands are inside the pockets, the left hand wears a square smartwatch, one leg casually crossed over the other, relaxed and confident posture. The lighting is a professional studio, bright yet soft, premium clarity.
 
 On the wall beside him is a bold black-and-white stylized vector portrait of the same subject, rendered with modern geometric accents. Beneath the graphic, add clean bold text 'Zia Khan' in large type, and below it is a smaller font 'Agentic AI Developer'
 
 Mood & Style: modern, minimalistic, premium personal-branding aesthetic, sharp contrast, sleek composition.
-```
+
+</div>
+
 Original Image:
 
 ![](original.jpeg)
@@ -390,3 +392,511 @@ Before submitting your prompt, verify:
 Effective prompt engineering for nano banana combines artistic vision with technical precision. By following these principles and studying the examples provided, you'll be able to consistently generate professional-quality portraits that meet your specific requirements. Remember: specificity, structure, and professional photography terminology are your keys to success.
 
 Practice with these templates, adapt them to your needs, and develop your own style of prompt engineering. The more specific and well-structured your prompts, the better your results will be.
+
+# Appendix A: Professional Photography Language Reference
+
+*A Comprehensive Guide to Photography Terminology for AI Image Generation*
+
+## Usage Guidelines for AI Prompts
+
+### Combining Technical Terms
+
+**Example Structure:**
+"Professional portrait shot with 85mm lens at f/1.4, creating shallow depth of field with creamy bokeh. Rembrandt lighting setup using softbox as key light, subtle fill light to control shadows."
+
+### Balancing Technical and Creative
+
+- Use 2-3 technical terms per prompt maximum
+- Combine with creative descriptors for mood
+- Prioritize terms that affect the final aesthetic
+- Avoid conflicting technical specifications
+
+### Common Effective Combinations
+
+**Corporate Professional:**
+- "85mm lens, f/2.8, even studio lighting, neutral background"
+
+**Artistic Portrait:**
+- "Shallow depth of field, dramatic side lighting, black and white, high contrast"
+
+**Environmental Portrait:**
+- "35mm lens, natural window light, environmental storytelling, documentary style"
+
+This appendix serves as a reference guide for understanding and effectively using professional photography terminology in both traditional photography and AI image generation prompts.
+
+---
+
+## Camera Equipment & Technical Specifications
+
+### Lenses & Focal Lengths
+
+**Portrait Lenses (85mm-135mm)**
+- **85mm lens**: The gold standard for portraits; provides natural perspective with subtle compression
+- **105mm lens**: Slightly more compressed than 85mm; excellent for isolating subjects
+- **135mm lens**: Maximum compression for dramatic effect; requires more distance from subject
+
+**Standard Lenses (35mm-50mm)**
+- **50mm lens**: "Normal" lens that mimics human vision; versatile for environmental portraits
+- **35mm lens**: Wider field of view; good for environmental storytelling and context
+
+**Wide Angle Lenses (14mm-35mm)**
+- **24mm lens**: Wide perspective; can create dramatic environmental context
+- **35mm lens**: Moderate wide angle; includes more environment without distortion
+
+### Aperture Settings (f-stops)
+
+**Wide Apertures (Shallow Depth of Field)**
+- **f/1.4**: Maximum background blur (bokeh); extremely shallow focus
+- **f/1.8**: Strong subject isolation; creamy background separation
+- **f/2.8**: Good separation while maintaining some background context
+
+**Medium Apertures (Balanced Focus)**
+- **f/4.0**: Moderate depth of field; good for environmental portraits
+- **f/5.6**: Standard portrait aperture; sharp subject with blurred background
+
+**Narrow Apertures (Deep Focus)**
+- **f/8.0**: Sharp focus throughout most of the frame
+- **f/11**: Maximum sharpness across the entire image
+
+### Camera Types & Formats
+
+**Professional DSLR/Mirrorless**
+- **Canon 5D Mark IV**: Full-frame professional camera
+- **Sony A7R IV**: High-resolution mirrorless system
+- **Nikon D850**: Professional DSLR with exceptional detail
+
+**Medium Format**
+- **Hasselblad**: Premium quality with distinctive look
+- **Fujifilm GFX**: Modern medium format digital
+
+**Film References**
+- **35mm film**: Classic film format with characteristic grain
+- **Medium format film**: Larger negative size for superior quality
+
+---
+
+## Lighting Terminology
+
+### Studio Lighting Setup
+
+**Key Light**
+- Primary light source illuminating the subject
+- Usually positioned 45 degrees from camera axis
+- Determines the overall exposure and main shadows
+
+**Fill Light**
+- Secondary light that reduces shadow contrast
+- Typically softer and less intense than key light
+- Positioned opposite the key light
+
+**Rim Light/Hair Light**
+- Back light that creates separation from background
+- Highlights the edge/outline of the subject
+- Creates depth and dimensionality
+
+**Background Light**
+- Illuminates the backdrop separately from subject
+- Controls background tone and separation
+- Can create gradients or even illumination
+
+### Lighting Patterns
+
+**Rembrandt Lighting**
+- Classic portrait lighting creating small triangle of light on shadow side of face
+- Key light positioned high and to one side
+- Creates dramatic, artistic mood
+
+**Butterfly Lighting**
+- Light directly in front and above subject
+- Creates butterfly-shaped shadow under nose
+- Flattering for most face shapes
+
+**Split Lighting**
+- Light positioned 90 degrees to side of subject
+- Half the face in light, half in shadow
+- Creates dramatic, moody effect
+
+**Loop Lighting**
+- Slight variation of Rembrandt with softer shadows
+- Small shadow loop from nose on cheek
+- Natural, flattering look
+
+### Light Quality Descriptions
+
+**Hard Light**
+- Direct, undiffused light source
+- Creates sharp, defined shadows
+- High contrast between highlights and shadows
+- Example: Direct sunlight, bare flash
+
+**Soft Light**
+- Diffused or bounced light source
+- Gradual transition between light and shadow
+- Even, flattering illumination
+- Example: Overcast sky, softbox, umbrella
+
+**Directional Light**
+- Light with clear direction creating modeling
+- Reveals form and texture through shadows
+- Creates three-dimensional appearance
+
+**Flat Light**
+- Even illumination with minimal shadows
+- Reduces texture and dimension
+- Good for eliminating imperfections
+
+---
+
+## Natural Lighting Conditions
+
+### Time-Based Lighting
+
+**Golden Hour**
+- First/last hour of sunlight
+- Warm, soft, directional light
+- Long shadows and golden color temperature
+- Most flattering natural light for portraits
+
+**Blue Hour**
+- Period just after sunset/before sunrise
+- Even, soft blue-toned light
+- No harsh shadows
+- Romantic, moody atmosphere
+
+**Overcast**
+- Cloudy sky acting as giant softbox
+- Even, diffused lighting
+- No harsh shadows
+- Consistent light throughout day
+
+**Midday Sun**
+- Direct overhead sunlight
+- Hard, unflattering shadows under eyes and nose
+- High contrast
+- Generally avoided for portraits
+
+### Direction & Quality
+
+**Window Light**
+- Soft, directional natural light
+- Size of window affects light quality
+- North-facing windows provide consistent light
+- Can be modified with curtains or diffusion
+
+**Backlighting**
+- Subject between camera and light source
+- Creates rim lighting effect
+- Can produce lens flare or silhouettes
+- Dramatic and atmospheric
+
+**Side Lighting**
+- Light coming from subject's side
+- Reveals texture and form
+- Creates natural shadow patterns
+- Good for dramatic portraits
+
+---
+
+## Depth of Field Terminology
+
+### Focus Effects
+
+**Shallow Depth of Field**
+- Small area in sharp focus
+- Background/foreground heavily blurred
+- Created by wide apertures (f/1.4, f/1.8)
+- Isolates subject from environment
+
+**Deep Depth of Field**
+- Large area in sharp focus
+- Background remains recognizable
+- Created by narrow apertures (f/8, f/11)
+- Good for environmental context
+
+**Bokeh**
+- Quality of out-of-focus areas
+- Smooth, creamy blur is desirable
+- Affected by lens design and aperture shape
+- "Good bokeh" = pleasing background blur
+
+**Focus Fall-off**
+- Gradual transition from sharp to blurred
+- Rate depends on aperture and focal length
+- Longer lenses create faster fall-off
+
+---
+
+## Composition & Framing
+
+### Classic Rules
+
+**Rule of Thirds**
+- Frame divided into nine equal sections
+- Subject positioned at intersection points
+- Creates more dynamic composition than centering
+
+**Leading Lines**
+- Lines in image that draw eye to subject
+- Can be architectural elements, natural features
+- Creates depth and guides viewer attention
+
+**Negative Space**
+- Empty areas around subject
+- Provides breathing room in composition
+- Can be used for text overlay in branding
+
+**Framing**
+- Using elements to create border around subject
+- Windows, doorways, natural elements
+- Draws attention to subject
+
+### Portrait-Specific Framing
+
+**Headshot**
+- Cropped at shoulders or upper chest
+- Focus on face and expression
+- Standard for corporate and acting portfolios
+
+**Three-Quarter Length**
+- Cropped at mid-thigh or knee
+- Shows more body language and pose
+- Good balance of subject and environment
+
+**Full-Body**
+- Shows entire subject from head to toe
+- Includes more environmental context
+- Requires careful attention to posing
+
+**Environmental Portrait**
+- Subject shown in their natural environment
+- Context tells story about person
+- Balances subject with surroundings
+
+---
+
+## Photography Styles & Genres
+
+### Commercial Photography
+
+**Corporate Headshots**
+- Clean, professional appearance
+- Even lighting to minimize shadows
+- Neutral backgrounds
+- Conservative cropping and composition
+
+**Executive Portraits**
+- Authoritative and confident mood
+- Higher production value
+- Environmental context of success
+- Premium lighting and retouching
+
+**LinkedIn Profile Photos**
+- Approachable but professional
+- Clean background
+- Direct eye contact
+- Conservative business attire
+
+### Editorial Photography
+
+**Magazine Style**
+- High production value
+- Creative lighting and composition
+- Fashion-forward styling
+- Artistic interpretation of subject
+
+**Documentary Style**
+- Natural, candid moments
+- Environmental storytelling
+- Authentic expressions and poses
+- Less controlled lighting
+
+**Fashion Photography**
+- Emphasis on styling and clothing
+- Creative poses and expressions
+- High contrast or dramatic lighting
+- Artistic composition
+
+### Fine Art Photography
+
+**Portrait Art**
+- Artistic interpretation over commercial appeal
+- Creative use of light and shadow
+- Unique perspectives and compositions
+- Emotional or conceptual storytelling
+
+**Black and White**
+- Emphasis on form, texture, and contrast
+- Timeless, classic aesthetic
+- Dramatic lighting effects
+- Removes color distractions
+
+---
+
+## Color Temperature & White Balance
+
+### Color Temperature Scale (Kelvin)
+
+**Warm Light (2700K-3200K)**
+- Candlelight, tungsten bulbs
+- Golden, orange tones
+- Cozy, intimate feeling
+- Good for romantic or comfortable moods
+
+**Neutral Light (3200K-5500K)**
+- Studio strobes, flash
+- Balanced, natural skin tones
+- Professional standard
+- Most flattering for portraits
+
+**Cool Light (5500K-7000K)**
+- Daylight, overcast sky
+- Blue-white tones
+- Clean, modern feeling
+- Can appear clinical or professional
+
+**Very Cool Light (7000K+)**
+- Shade, blue sky
+- Strong blue cast
+- Can create mood or technical issues
+- Often corrected in post-processing
+
+---
+
+## Post-Processing Terms
+
+### Basic Adjustments
+
+**Exposure**
+- Overall brightness of image
+- Affects highlights and shadows
+- Global adjustment affecting entire image
+
+**Contrast**
+- Difference between lightest and darkest areas
+- High contrast = dramatic, punchy look
+- Low contrast = soft, muted appearance
+
+**Highlights/Shadows**
+- Selective adjustment of bright/dark areas
+- Recovers detail in blown highlights
+- Opens up dark shadow areas
+
+### Advanced Techniques
+
+**Dodge and Burn**
+- Selectively lighten (dodge) or darken (burn) areas
+- Enhances natural light patterns
+- Adds dimension and modeling to face
+
+**Color Grading**
+- Adjusting colors for mood and style
+- Separate control of highlights/shadows
+- Creates signature look or brand consistency
+
+**Skin Retouching**
+- Removing blemishes and imperfections
+- Smoothing while maintaining texture
+- Professional standard varies by use case
+
+---
+
+## Professional Photography Equipment
+
+### Studio Equipment
+
+**Softbox**
+- Fabric diffusion panel over light source
+- Creates soft, even illumination
+- Various sizes for different effects
+- Most common studio modifier
+
+**Umbrella**
+- Reflective or shoot-through diffusion
+- Broader, softer light than direct flash
+- Portable and easy to set up
+- Less controlled than softbox
+
+**Beauty Dish**
+- Large, shallow reflector
+- Soft yet directional light
+- Popular for fashion and beauty work
+- Creates distinctive catch-light pattern
+
+**Grid/Honeycomb**
+- Restricts light spread
+- Creates more directional beam
+- Prevents light spill
+- Good for background separation
+
+### Modifiers & Accessories
+
+**Reflector**
+- Bounces light back onto subject
+- Fills in shadows naturally
+- Available in various colors (white, silver, gold)
+- Essential for outdoor portraits
+
+**Flag/Gobo**
+- Blocks or shapes light
+- Creates shadows or negative fill
+- Controls light spill
+- Professional lighting control
+
+**Diffusion Panel**
+- Large translucent material
+- Softens harsh sunlight
+- Creates even illumination
+- Portable solution for location work
+
+---
+
+## Quality Descriptors
+
+### Image Quality Terms
+
+**Tack Sharp**
+- Extremely sharp focus
+- No motion blur or focus issues
+- Professional standard for portraits
+- Requires proper technique and equipment
+
+**Creamy Bokeh**
+- Smooth, pleasant background blur
+- No harsh edges or distracting elements
+- Sign of quality lens and proper technique
+- Desirable for subject isolation
+
+**Rich Tones**
+- Full range of colors and contrast
+- No blown highlights or blocked shadows
+- Professional color grading
+- Premium post-processing quality
+
+**Natural Skin Tones**
+- Accurate color reproduction
+- Proper white balance
+- Flattering but realistic
+- Professional standard for portraits
+
+### Professional Standards
+
+**Editorial Quality**
+- Magazine-ready production values
+- Perfect technical execution
+- Creative and engaging composition
+- High-end retouching standards
+
+**Commercial Grade**
+- Suitable for advertising and marketing
+- Consistent brand representation
+- Professional lighting and styling
+- Polished final presentation
+
+**Fine Art Standard**
+- Museum-quality printing and finishing
+- Artistic vision and execution
+- Unique perspective and interpretation
+- Long-term archival considerations
+
+---
+
