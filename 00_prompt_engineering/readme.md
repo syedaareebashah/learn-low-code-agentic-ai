@@ -127,6 +127,14 @@ Prompt engineering is the art and science of crafting instructions that guide AI
 
 [Prompt Engineering Tutorial for Nano Banana](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/image_generation/readme.md)
 
+## Video Generation Tutorial
+
+[Video Generation Tutorial for Google Veo 3](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/video_generation/readme.md)
+
+Note: This is bonus material, due to high cost of the Veo 3 model this tutor in not covered in the Panaversity Certification Exams:
+
+https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing
+
 
 ## Understanding Large Language Models
 
