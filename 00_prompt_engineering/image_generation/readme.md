@@ -40,7 +40,7 @@ A well-structured prompt typically includes:
 
 ## 🔹 Example 1: Professional Branding Portrait
 
-**Prompt Used (from your case):**
+**Prompt Used:**
 
 <div style="width: 200px; border: 1px solid black; padding: 10px;">
 Hyper-realistic full-body portrait of the uploaded photo, standing casually against a smooth light-gray wall. The outfit is as worn as in winter. The hands are inside the pockets, the left hand wears a square smartwatch, one leg casually crossed over the other, relaxed and confident posture. The lighting is a professional studio, bright yet soft, premium clarity.
@@ -74,7 +74,7 @@ Generated:
 
 **Prompt Used:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 {
   "prompt": "create moody black and white portrait of a man, hand resting near mouth, deep gaze into distance, dramatic shadows across his face, expressive wrinkles, soft rembrandt  light from the side, cinematic atmosphere, professional portrait photography style, shot on 85mm lens f/1.4, shallow depth of field, high contrast, fine art photography, editorial feel",
   "style": "cinematic, moody, introspective",
@@ -88,13 +88,13 @@ Generated:
   },
   "mood": "thoughtful, reflective, timeless"
 }
-```
+</div>
 
 or 
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 create moody black and white portrait of a man, hand resting near mouth, deep gaze into distance, dramatic shadows across his face, expressive wrinkles, soft rembrandt light from the side, cinematic atmosphere, professional portrait photography style, shot on 85mm lens f/1.4, shallow depth of field, high contrast, fine art photography, editorial feel
-```
+</div>
 
 
 **Style Metadata:**
@@ -124,9 +124,9 @@ Generated:
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Professional corporate headshot of a confident middle-aged man, wearing a tailored dark suit and white shirt, subtle smile, neutral blurred background, evenly lit with soft studio lights, sharp focus on the face, natural skin tones, minimal retouching, LinkedIn profile photo style.
-```
+</div>
 
 Generated:
 
@@ -142,9 +142,9 @@ It creates a clean, realistic image suitable for resumes, LinkedIn, or official 
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Full-body futuristic portrait of the uploaded subject, standing in a sleek cyberpunk office with neon blue and purple accents. Outfit transformed into a smart-tech suit with glowing circuits along the fabric. Holographic display beside him showing the words: 'Agentic AI Developer'. Style: cinematic, glossy, high-tech corporate branding aesthetic.
-```
+</div>
 
 💡 **Use Case:** Great for AI events, keynotes, or futuristic branding material.
 
@@ -159,9 +159,9 @@ Generated:
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Editorial fashion portrait of a man sitting on a modern chair, dressed in a sharp black suit with no tie, intense gaze into the camera. Lighting dramatic with deep shadows and highlights, glossy magazine style, Vogue photography, minimal background with gradient tones, cinematic 50mm lens effect.
-```
+</div>
 
 💡 **Use Case:** Stylish professional portfolios or publications.
 
@@ -175,9 +175,9 @@ Generated:
 
 **Prompt:**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Digital abstract vector art of the uploaded subject, face geometrically stylized with sharp angular lines, vibrant neon gradient colors, glowing outlines, futuristic tech-hero aesthetic, suitable for modern branding and event posters.
-```
+</div>
 
 💡 **Use Case:** Event banners, creative keynote posters, or website hero images.
 
@@ -318,13 +318,13 @@ Start broad, then add specifics:
 
 **Method 1: Paragraph Style**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Professional corporate headshot of a business executive, standing confidently in a modern office environment. Clean business attire, direct eye contact with camera, subtle smile conveying approachability. Soft natural lighting from large office windows, complemented by subtle fill lighting. Shot with 85mm lens at f/2.8 for subject separation. Modern, clean aesthetic with neutral color palette. High-end corporate photography style.
-```
+</div>
 
 **Method 2: Categorized Style**
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 SUBJECT: Corporate executive, professional attire
 POSE: Standing confidently, direct eye contact, subtle smile
 ENVIRONMENT: Modern office, clean professional setting
@@ -332,7 +332,7 @@ LIGHTING: Soft natural window light with fill lighting
 CAMERA: 85mm lens, f/2.8 aperture, shallow depth of field
 STYLE: High-end corporate photography, clean modern aesthetic
 MOOD: Confident, approachable, professional leadership
-```
+</div>
 
 **Method 3: JSON Structure** (for complex requirements)
 
@@ -358,21 +358,21 @@ MOOD: Confident, approachable, professional leadership
 
 ### Template 1: Corporate Executive
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Professional executive portrait: [SUBJECT] in sharp business attire, standing confidently with hands [HAND_POSITION], direct eye contact conveying [MOOD]. Modern corporate environment with [BACKGROUND_DETAIL]. Studio lighting setup with soft key light from camera left, subtle fill light, rim lighting for separation. Shot with 85mm portrait lens at f/2.8, shallow depth of field. High-end corporate photography style, clean composition, neutral professional color palette.
-```
+</div>
 
 ### Template 2: Creative Professional
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Creative professional portrait: [SUBJECT] in [ATTIRE_STYLE], positioned [POSE] in [CREATIVE_ENVIRONMENT]. Natural lighting from [LIGHT_SOURCE], creating [LIGHT_QUALITY] illumination. Environmental storytelling elements including [PROPS/CONTEXT]. Documentary photography style with [LENS_TYPE], capturing authentic [MOMENT/EXPRESSION]. Color palette of [COLORS] to reflect [BRAND/PERSONALITY].
-```
+</div>
 
 ### Template 3: Lifestyle/Personal Brand
 
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Lifestyle portrait: [SUBJECT] in [SETTING], wearing [CASUAL_ATTIRE], engaged in [ACTIVITY/POSE]. Natural [TIME_OF_DAY] lighting creating [MOOD], shot in [LOCATION_TYPE]. [CAMERA_SPEC] for [DEPTH_EFFECT]. Lifestyle photography aesthetic focusing on [BRAND_ATTRIBUTES]. Authentic, relatable, [EMOTIONAL_TONE] atmosphere.
-```
+</div>
 
 ## Quality Control Checklist
 
