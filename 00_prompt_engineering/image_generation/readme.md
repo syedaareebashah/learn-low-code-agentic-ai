@@ -245,24 +245,24 @@ Muted earth tones for organic, natural feel
 ## Style Categories
 
 ### Corporate/Professional
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Executive portrait: sharp business attire, confident posture, neutral background, even lighting, shot with 85mm lens, shallow depth of field, professional headshot style, clean composition, corporate environment
-```
+</div>
 
 ### Creative/Artistic
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Artist portrait: creative workspace background, natural lighting from large window, relaxed casual attire, hands engaged with creative tools, environmental storytelling, documentary photography style, 35mm lens, authentic candid moment
-```
+</div>
 
 ### Fashion/Editorial
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 High-fashion portrait: dramatic pose, designer clothing, studio backdrop with gradient lighting, professional hair and makeup, editorial magazine style, shot with medium format camera, sharp details, fashion photography aesthetic
-```
+</div>
 
 ### Lifestyle/Personal Branding
-```
+<div style="width: 200px; border: 1px solid black; padding: 10px;">
 Lifestyle portrait: modern home office setting, natural window light, smart casual attire, confident yet approachable expression, environmental context showing personality, lifestyle photography style, authentic moment capture
-```
+</div>
 
 ## Common Mistakes to Avoid
 
