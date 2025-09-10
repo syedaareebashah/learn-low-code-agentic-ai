@@ -315,11 +315,13 @@ Start broad, then add specifics:
 ### 5. Use Structured Formatting
 
 **Method 1: Paragraph Style**
+
 ```
 Professional corporate headshot of a business executive, standing confidently in a modern office environment. Clean business attire, direct eye contact with camera, subtle smile conveying approachability. Soft natural lighting from large office windows, complemented by subtle fill lighting. Shot with 85mm lens at f/2.8 for subject separation. Modern, clean aesthetic with neutral color palette. High-end corporate photography style.
 ```
 
 **Method 2: Categorized Style**
+
 ```
 SUBJECT: Corporate executive, professional attire
 POSE: Standing confidently, direct eye contact, subtle smile
@@ -331,6 +333,7 @@ MOOD: Confident, approachable, professional leadership
 ```
 
 **Method 3: JSON Structure** (for complex requirements)
+
 ```json
 {
   "subject": "professional business portrait",
@@ -352,16 +355,19 @@ MOOD: Confident, approachable, professional leadership
 ## Advanced Example Templates
 
 ### Template 1: Corporate Executive
+
 ```
 Professional executive portrait: [SUBJECT] in sharp business attire, standing confidently with hands [HAND_POSITION], direct eye contact conveying [MOOD]. Modern corporate environment with [BACKGROUND_DETAIL]. Studio lighting setup with soft key light from camera left, subtle fill light, rim lighting for separation. Shot with 85mm portrait lens at f/2.8, shallow depth of field. High-end corporate photography style, clean composition, neutral professional color palette.
 ```
 
 ### Template 2: Creative Professional
+
 ```
 Creative professional portrait: [SUBJECT] in [ATTIRE_STYLE], positioned [POSE] in [CREATIVE_ENVIRONMENT]. Natural lighting from [LIGHT_SOURCE], creating [LIGHT_QUALITY] illumination. Environmental storytelling elements including [PROPS/CONTEXT]. Documentary photography style with [LENS_TYPE], capturing authentic [MOMENT/EXPRESSION]. Color palette of [COLORS] to reflect [BRAND/PERSONALITY].
 ```
 
 ### Template 3: Lifestyle/Personal Brand
+
 ```
 Lifestyle portrait: [SUBJECT] in [SETTING], wearing [CASUAL_ATTIRE], engaged in [ACTIVITY/POSE]. Natural [TIME_OF_DAY] lighting creating [MOOD], shot in [LOCATION_TYPE]. [CAMERA_SPEC] for [DEPTH_EFFECT]. Lifestyle photography aesthetic focusing on [BRAND_ATTRIBUTES]. Authentic, relatable, [EMOTIONAL_TONE] atmosphere.
 ```
