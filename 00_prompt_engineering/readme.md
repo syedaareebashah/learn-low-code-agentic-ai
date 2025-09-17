@@ -13,6 +13,7 @@
 
 To understand the power of LLMs and prompt engineering go through these tutorials: 
 
+* **[Complete Guide to Context Engineering for AI Agents](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/00_prompt_engineering/context_engineering_tutorial.md)**
 * **[Nano Banana Tutorial](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/image_generation/readme.md)**
 * **[Google's Veo 3: A Guide With Practical Examples](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/video_generation/readme.md)**
 * **[UX Design by Prompting](https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/00_prompt_engineering/ux_design)**
@@ -121,22 +122,6 @@ Prompt engineering is the art and science of crafting instructions that guide AI
 * Evaluate both layers separately: prompt A/B tests and retrieval quality (precision/recall, groundedness).
 
 **One-liner:** Prompt engineering is *how you ask*; context engineering is *what you show*. Combine them for reliable, scalable LLM apps.
-
-## Context Engineering Complete Guide
-
-[Complete Guide to Context Engineering for AI Agents](https://github.com/panaversity/learn-n8n-agentic-ai/blob/main/00_prompt_engineering/context_engineering_tutorial.md)
-
-## Image Generation Tutorial
-
-[Prompt Engineering Tutorial for Nano Banana](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/image_generation/readme.md)
-
-## Video Generation Tutorial
-
-[Video Generation Tutorial for Google Veo 3](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/video_generation/readme.md)
-
-Note: This is bonus material, due to high cost of the Veo 3 model this tutor in not covered in the Panaversity Certification Exams:
-
-https://docs.google.com/document/d/1BygAckkfc_NFQnTfEM6qqUvPdlIHpNItmRtvfRMGp38/edit?usp=sharing
 
 
 ## Understanding Large Language Models
