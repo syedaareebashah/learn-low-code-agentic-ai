@@ -4,7 +4,7 @@ In the following article Product designer Vidya Ravichandran shows how disciplin
 
 The article reveals that the quality of your prompt directly influences the quality of your design Design by Prompting: What I Learned Using UXPilot, showing how structured instructions can produce brand-consistent results with minimal rework, positioning AI as a true design partner when guided effectively.
 
-**[Design by Prompting: What I Learned Using UXPilot](https://vidyaravichandran.medium.com/design-by-prompting-what-i-learned-using-uxpilot-bbf704eca0aa)**
+**[Read: Design by Prompting: What I Learned Using UXPilot](https://vidyaravichandran.medium.com/design-by-prompting-what-i-learned-using-uxpilot-bbf704eca0aa)**
 
 ## Advanced: UX Pilot End-to-End Workflow
 
