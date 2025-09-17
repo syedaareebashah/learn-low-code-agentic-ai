@@ -10,6 +10,6 @@ The article reveals that the quality of your prompt directly influences the qual
 
 UX Pilot is an AI-powered design tool that can transform your design process from initial concept to production-ready screens. This comprehensive tutorial will guide you through creating a complete design package using UX Pilot's capabilities within Figma and FigJam
 
-[The UX Pilot End-to-End Workflow: From Idea to Production-Ready UI]()
+[The UX Pilot End-to-End Workflow: From Idea to Production-Ready UI](https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/00_prompt_engineering/ux_generation/uxpilot_workflow_tutorial.md)
 
 > Tip: Ideation prompts inside the FigJam plugin’s **AI Tools → Custom Prompt** do not consume UX Pilot tokens (as described in the video), making it ideal for early exploration.
