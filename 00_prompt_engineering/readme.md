@@ -16,7 +16,8 @@ To understand the power of LLMs and prompt engineering go through these tutorial
 * **[Nano Banana Tutorial: How to Use Google’s AI Image Editing Model in 2025](https://www.anangsha.me/nano-banana-tutorial-how-to-use-googles-ai-image-editing-model-in-2025/)**
 * **[Google's Veo 3: A Guide With Practical Examples](https://www.datacamp.com/tutorial/veo-3)**
 * **[How to create effective prompts with Veo 3](https://deepmind.google/models/veo/prompt-guide/)**
-* **[UX Design by Prompting](https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/00_prompt_engineering/ux_generation)**
+* **[UX Design by Prompting](https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/00_prompt_engineering/ux_design)**
+* **[UI Development by Prompting](https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/00_prompt_engineering/ui_development)**
 
 ## Which is the best LLM?
 
