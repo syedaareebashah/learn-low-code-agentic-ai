@@ -1,6 +1,6 @@
 # The UX Pilot End-to-End Workflow: From Idea to Production-Ready UI
 
-[Design An App With AI | UX Pilot Tips & Tricks](https://www.youtube.com/watch?v=mMMRKwGitGw)
+[Watch: Design An App With AI | UX Pilot Tips & Tricks](https://www.youtube.com/watch?v=mMMRKwGitGw)
 
 This tutorial distills the complete process demonstrated in the provided video into a professional, step-by-step guide. You’ll go from a blank canvas to a documented, high-fidelity mobile app—entirely inside the UX Pilot ecosystem (FigJam/Figma + UX Pilot Web).
 
