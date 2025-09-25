@@ -9,6 +9,10 @@
 - The second most-used chatbot, DeepSeek at 2.74B visits, has barely 6% of ChatGPT’s traffic.
 - While traffic is concentrated, the list includes a mix of U.S., Chinese, and European players.
 
+## How LLM Works
+
+[How LLMs Work: Top 10 Executive-Level Questions](https://sloanreview.mit.edu/article/how-llms-work/)
+
 ## Understand the Power of Prompts: Context Engineering for Agentic AI Developers, Image and Video Generation, UX/UI Design and UI Development
 
 To understand the power of LLMs and prompt engineering go through these tutorials: 
