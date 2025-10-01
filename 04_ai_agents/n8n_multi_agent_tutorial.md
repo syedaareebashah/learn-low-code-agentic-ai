@@ -1,6 +1,6 @@
 # n8n Multi‑Agent Tutorial: Multi‑Agent Newsletter Automation (Beginner‑Friendly)
 
-[[The Tutorial is based on this Video: Watch Me Build a Multi-Agent Newsletter System in n8n (step-by-step)](https://www.youtube.com/watch?v=pxzo2lXhWJE)
+[The Tutorial is based on this Video: Watch Me Build a Multi-Agent Newsletter System in n8n (step-by-step)](https://www.youtube.com/watch?v=pxzo2lXhWJE)
 
 > Build a 3‑agent workflow in n8n that researches, drafts, and formats a newsletter, then creates a Gmail draft for human review. We’ll follow the video’s flow **and** fill in the missing pieces (prompts, schemas, expressions, error‑handling, hosting, and security). Yes, like adding fries to a perfectly good burger 🍟.
 
