@@ -42,6 +42,7 @@ https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/04_ai_agents#
 https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/04_ai_agents#step-8-ai-agent-architectures
 
 10. Junaid: Evaluations
+https://github.com/panaversity/learn-low-code-agentic-ai/blob/main/04_ai_agents/evals.md
 
 
 ### What are AI agents?
