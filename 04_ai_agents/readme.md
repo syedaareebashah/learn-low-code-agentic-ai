@@ -42,7 +42,7 @@ https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/04_ai_agents#
 https://github.com/panaversity/learn-low-code-agentic-ai/tree/main/04_ai_agents#step-8-ai-agent-architectures
 
 10. Junaid: Evaluations
-https://docs.n8n.io/advanced-ai/evaluations/overview/
+
 
 ### What are AI agents?
 An AI agent is an autonomous system that receives data, makes rational decisions, and acts within its environment to achieve specific goals.
