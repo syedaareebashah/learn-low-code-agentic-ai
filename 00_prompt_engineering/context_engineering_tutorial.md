@@ -326,7 +326,8 @@ The field is rapidly evolving, so stay updated with the latest frameworks, tools
 
 ## [Must Read: Effective context engineering for AI agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents)
 
-I'll fetch and summarize that article for you.Let me try searching for information about this article:## Summary: Effective Context Engineering for AI Agents
+I'll fetch and summarize that article for you.Let me try searching for information about this article:
+## Summary: Effective Context Engineering for AI Agents
 
 Context engineering represents the evolution from prompt engineering to a broader discipline focused on optimizing the entire set of tokens available to an AI model during inference. Rather than just crafting perfect prompts, it's about answering: "What configuration of context is most likely to generate our model's desired behavior?"
 
